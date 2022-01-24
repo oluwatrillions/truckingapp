@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo h6 {
+  color: aliceblue;
+}
+
+.navSection {
+  display: flex;
+  justify-content: space-around;
+  background: rgb(46, 45, 45);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo img {
+  width: 3em;
+  height: 3em;
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.navBar > nav > ul {
+  display: flex;
+}
+
+nav > ul > li {
+  display: flex;
+  margin: 1em;
+  color: aliceblue;
+}

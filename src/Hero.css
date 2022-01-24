@@ -1,0 +1,50 @@
+*,
+div,
+img,
+nav {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.heroImg img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center fixed;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 80vh;
+  position: relative;
+}
+
+.heroImg > div {
+  position: absolute;
+  width: 80vw;
+  top: 20vh;
+  left: 0;
+  box-sizing: border-box;
+}
+
+div > h1 {
+  font-size: 2em;
+  font-weight: 100;
+  color: rgb(95, 27, 27);
+  margin-left: 21em;
+  box-sizing: border-box;
+}
+
+div > h4 {
+  font-size: 1.2em;
+  margin-left: 33em;
+  margin-top: 1em;
+  color: rgb(88, 85, 85);
+  box-sizing: border-box;
+}
+
+div > h3 {
+  margin-left: 24em;
+  margin-top: 2em;
+  color: rgb(41, 43, 44);
+  box-sizing: border-box;
+}

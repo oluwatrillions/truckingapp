@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.myServices {
+  display: flex;
+  justify-content: center;
+  padding-right: 2em;
+}
+
+.serviceh2 {
+  margin-right: 6em;
+  font-size: 1.2em;
+}
+
+.serviceh6 {
+  padding-right: 5em;
+}

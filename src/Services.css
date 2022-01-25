@@ -1,3 +1,59 @@
-.services {
-  margin-top: 0;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.serviceless {
+  width: 100vw;
+  height: 60vh;
+  background: grey;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.servicesInfo {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 20em;
+  box-sizing: border-box;
+  padding: 1em;
+}
+
+.firstInfo h6 {
+  font-size: 1.2em;
+  color: white;
+  font-weight: 300;
+  text-align: right;
+  margin-left: -5em;
+}
+
+.firstInfo h5 {
+  font-size: 1.2em;
+  color: white;
+  font-weight: 300;
+  margin-top: 2em;
+  text-align: right;
+}
+
+.secondInfo h3 {
+  font-size: 2em;
+  margin: 0;
+  color: rgb(247, 238, 238);
+  font-weight: 300;
+}
+
+.servicesInfo span {
+  color: rgb(253, 253, 253);
+  font-weight: 700;
+}
+
+.firstInfo {
+  width: 50%;
+  margin: 1.5em;
+}
+.secondInfo {
+  width: 50%;
+  margin: 1.5em;
 }

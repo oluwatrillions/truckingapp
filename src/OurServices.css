@@ -8,6 +8,8 @@
   display: flex;
   justify-content: center;
   padding-right: 2em;
+  box-sizing: border-box;
+  padding-bottom: 2em;
 }
 
 .serviceh2 {
@@ -17,4 +19,17 @@
 
 .serviceh6 {
   padding-right: 5em;
+}
+
+.service-info img {
+  width: 300px;
+  height: 300px;
+}
+
+.service-info h2 {
+  color: rgb(225, 229, 233);
+}
+
+.service-info h6 {
+  color: rgb(255, 255, 255);
 }

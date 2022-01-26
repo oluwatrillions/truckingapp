@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.experience {
+  width: 100vw;
+  height: 80vh;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 40vw 60vw;
+  grid-template-rows: 40vh;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.shipping {
+  padding: 3em 5em;
+  color: white;
+  background: rgb(56, 55, 55);
+}
+
+.shipping h2 {
+  margin-bottom: 0.3em;
+  font-weight: 300;
+  color: rgb(218, 213, 213);
+}
+
+.shipping > h2 > span {
+  font-weight: 600;
+  color: white;
+}
+
+.shipping h4 {
+  display: flex;
+  margin: 0;
+  color: rgb(146, 146, 37);
+  font-weight: 100;
+}
+
+.shipping > h4 > span {
+  font-weight: 600;
+  color: yellow;
+}
+
+.shipping h3 {
+  margin: 0;
+  color: white;
+}
+
+.experience img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center fixed;
+}

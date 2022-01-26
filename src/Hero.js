@@ -4,7 +4,7 @@ import Nav from './Nav'
 
 function Hero() {
     return (
-        <div>
+        <div className='hero-page'>
             <div className='heroImg'>
                 <img className='hero' src={truckImg} alt='' />
                 <div className='summary'>

@@ -1,0 +1,42 @@
+import React from 'react';
+import './Experience.css'
+import images from './images/truck.jpg'
+import image from './images/trucking.jpg'
+import packaging from './images/package.png'
+import good from './images/goods.png'
+import food from './images/food.png'
+import retail from './images/retail.png'
+import energy from './images/energy.png'
+
+function Experience() {
+    return <div className='experience'>
+        <div className='shipping'>
+            <h2>Shipping <span>Experience</span></h2>
+            <h4>TOBIES <span>FREIGHT SERVICE</span></h4>
+            <blockquote>To meet new shipper and customer demands, <span> modern <br />
+                warehouse </span> design plans and for getting smarter targets, ad more <br />
+                flexible. Also intemediate cat madams and supply chaisn, efficiency and right <br />
+                in the future and right decisions.</blockquote>
+            
+            <h3>Search our databases of the <span>Top 100 providers</span> <br /> in
+            key segments of the supply chain industry.</h3>
+        </div>
+        <img src={images} alt='' />
+        <img src={image} alt='' />
+        <div>
+            <h1>WHAT OUR ADVANTAGES</h1>
+            <h3>TRANSPORT AND LOGIZTICS</h3>
+            <h6>To meet new shipper and consumer demands, modern<br />
+                warehouse design plans are larger, smarter, and more<br />
+                flexible. This issue draws a blueprint for warehousing<br />
+                best practices that support supply chain optimization.</h6>
+            <div className='services-icon'>
+                <img src={packaging} alt='' />
+                <h5>Consumer <span>Package Good</span></h5>
+            </div>
+        </div>
+        
+  </div>;
+}
+
+export default Experience;

@@ -11,7 +11,7 @@
   padding: 0;
   display: grid;
   grid-template-columns: 40vw 60vw;
-  grid-template-rows: 40vh;
+  grid-template-rows: 50vh 50vh;
   justify-content: center;
   box-sizing: border-box;
 }
@@ -47,11 +47,97 @@
 
 .shipping h3 {
   margin: 0;
-  color: white;
+  color: rgb(207, 205, 205);
+  font-weight: 100;
 }
 
 .experience img {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center fixed;
+}
+
+.shipping blockquote {
+  margin: 3em 0;
+  color: rgb(194, 190, 190);
+  opacity: 1;
+}
+
+blockquote > span {
+  color: white;
+}
+
+.shipping > h3 > span {
+  color: white;
+}
+
+.truck-image {
+  margin: 0;
+  padding: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center fixed;
+  width: 60vw;
+  height: 50vh;
+}
+
+.trucking-image {
+  margin: 0;
+  padding: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center fixed;
+  width: 40vw;
+  height: 50vh;
+}
+
+.services-icons {
+  margin: 0;
+  padding-left: 4em;
+  color: white;
+  background: rgb(56, 55, 55);
+}
+
+.services-icons h1 {
+  margin: 0;
+  padding-top: 1em;
+  color: white;
+}
+
+.services-icons h3 {
+  margin: 0;
+  padding-top: 0.7em;
+  color: rgb(207, 204, 204);
+  font-weight: 100;
+  font-size: 0.8em;
+}
+
+.services-icons h6 {
+  margin: 3em 0;
+  color: rgb(187, 185, 185);
+  font-size: 0.9em;
+  font-weight: 100;
+}
+
+.services-icon > div {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 0.7em;
+}
+
+.services-icon img {
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 1em;
+}
+
+.services-icon h5 {
+  padding-top: 0.6em;
+  color: rgb(175, 172, 172);
+  font-weight: 100;
+}
+
+.services-icon span {
+  color: white;
+  font-weight: 600;
 }

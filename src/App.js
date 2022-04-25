@@ -3,6 +3,7 @@ import './Hero.css'
 import Services from './Services'
 import Experience from './Experience'
 import Offers from './Offers'
+import Testimonial from './Testimonial'
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       <Hero />
       <Services />
       <Experience />
-      <Offers/>
+      <Offers />
+      <Testimonial />
     </div>
   );
 }

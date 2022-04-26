@@ -10,13 +10,26 @@ div {
   display: grid;
   grid-template-columns: 400px 400px 400px;
   grid-gap: 2em;
+  background: rgb(53, 51, 51);
   margin: 0;
   padding: 0;
+  padding-top: 2em;
   justify-content: center;
+}
+
+.top-head h2 {
+  font-weight: 400;
+  color: rgb(158, 154, 154);
+}
+
+.top-head h2 span {
+  font-weight: 500;
+  color: rgb(221, 221, 221);
 }
 
 .funFacts {
   height: 400px;
+  color: rgb(250, 250, 250);
 }
 
 .funFacts img {
@@ -37,35 +50,41 @@ div {
 .top-head h6 {
   margin-top: 0.5em;
   margin-bottom: 1.5em;
+  color: rgb(202, 202, 202);
+  font-size: .8em;
+  font-weight: 400;
 }
 
 .testhy h6 {
   text-transform: uppercase;
+  color: rgb(204, 203, 203);
+  font-weight: 400;
 }
 
 .quotes {
  padding-top: 3em; 
  text-align: center;
+ background-color: rgb(56, 54, 54);
 }
 
 .quotes h2 {
-  color: rgb(134, 132, 132);
-  font-weight: 500;
+  font-weight: 400;
+  color: rgb(158, 154, 154);
   font-size: 1em;
   margin-bottom: 1em;
 }
 
 .quotes span {
-  color: rgb(71, 70, 70);
-  font-weight: 600;
+  color: rgb(209, 209, 209);
+  font-weight: 400;
 }
 
 q {
   text-align: center;
   line-height: 1.5em;
-  color: rgb(43, 42, 42);
+  color: rgb(165, 166, 167);
   font-size: 1em;
-  padding: 1em 2em;
+  padding: 0 2em;
 }
 
 .quotesh4 {
@@ -77,4 +96,10 @@ q {
   padding: 0;
   font-size: 1em;
   display: block;
+  color: rgb(219, 219, 219);
+  font-weight: 400;
+}
+
+.quotesh4 span {
+  color: rgb(28, 176, 235);
 }

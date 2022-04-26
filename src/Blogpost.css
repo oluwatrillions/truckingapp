@@ -22,16 +22,31 @@
 
 .blogpost {
     display: flex;
+    gap: 2em;
 }
 
 .blogCred {
     font-size: .6em;
-    margin: 0;
-    padding: 1em 0;
+    margin-left: 0em;
+    margin-top: 2.4em;
+    margin-bottom: 1.5em;
+    color: rgb(179, 179, 179);
+}
+
+.blogCred span {
+    color: rgb(236, 216, 34);
+}
+
+.blogDesc {
+    font-size: 1.2em;
+    font-weight: 500;
+    color: rgb(208, 210, 212);
 }
 
 .blogMore {
     font-size: .8em;
-    margin: 0;
-    padding: 0;
+    margin-left: 0em;
+    margin-top: 1em;
+    color: rgb(28, 176, 235);
+    cursor: pointer;
 }

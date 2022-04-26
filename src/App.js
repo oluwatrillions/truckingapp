@@ -4,6 +4,8 @@ import Services from './Services'
 import Experience from './Experience'
 import Offers from './Offers'
 import Testimonial from './Testimonial'
+import './App.css'
+import Database from './Database'
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
       <Experience />
       <Offers />
       <Testimonial />
+      <Database />
     </div>
   );
 }

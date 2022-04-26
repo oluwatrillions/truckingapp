@@ -6,21 +6,27 @@ div {
 }
 
 .testimonial {
+  height: 60vh;
   display: grid;
-  grid-template-columns: 300px 300px 300px;
-  grid-gap: 1em;
+  grid-template-columns: 400px 400px 400px;
+  grid-gap: 2em;
   margin: 0;
   padding: 0;
   justify-content: center;
 }
 
+.funFacts {
+  height: 400px;
+}
+
 .funFacts img {
-  width: 300px;
+  width: 400px;
   height: 200px;
   margin-top: 1.5em;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center fixed;
+  object-fit: cover;
 }
 
 .top-head {
@@ -31,4 +37,32 @@ div {
 .top-head h6 {
   margin-top: 0.5em;
   margin-bottom: 1.5em;
+}
+
+.testhy h6 {
+  text-transform: uppercase;
+}
+
+.quotes {
+ padding-top: 4em; 
+ text-align: center;
+}
+
+.quotes h2 {
+  color: rgb(134, 132, 132);
+  font-weight: 500;
+  font-size: 1em;
+}
+
+.quotes span {
+  color: rgb(71, 70, 70);
+  font-weight: 600;
+}
+
+q {
+  text-align: center;
+  line-height: 1.5em;
+  color: rgb(43, 42, 42);
+  font-size: 1em;
+  padding: 1em 2em;
 }

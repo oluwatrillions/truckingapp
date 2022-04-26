@@ -13,31 +13,30 @@ function Testimonial() {
                 <h2>OUR <span>FUN FACTS</span></h2>
                 <h6>They say we are the best in the industsy</h6>
             </div>
-            <img src={truckers} alt='' />
-            <div>
+            <div className='funInfo'>
+                <img src={truckers} alt='' />
                 <FunFactInfo info={info} />
             </div>
-            <div>
-                <h6>Find the perfect Truck stock photos and editorial news pictures from Getty Images. <br />
-                    Select from 435532 premium Truck of the highest quality</h6>
+            <div className='testhy'>
+                <h6>Find the perfect Truck stock photos and editorial news pictures from Getty Images.</h6>
             </div>
         </div>
-        <div className='testimonies'>
+        <div className='funFacts'>
             <div className='top-head'>
-                <h2>OUR <span>FUN FACTS</span></h2>
+                <h2>OUR <span>TESTIMONIAL</span></h2>
                 <h6>They say we are the best in the</h6>
             </div>
             <div className='quotes'>
-                <h2>AJOSE MCIHAEL OLUWATOBI</h2>
-                <blockquote>It is not hard to see why. Natural gas flowing through <br />
-                    a web of pipelines from Russia heats homes and power <br />
-                    factories across much of Europe. Russia is also one of <br />
+                <h2>AJOSE <span>MICHAEL OLUWATOBI</span></h2>
+                <q>It is not hard to see why. Natural gas flowing through
+                    a web of pipelines from Russia heats homes and power
+                    factories across much of Europe. Russia is also one of
                     the continent’s key sources of oil.
-                </blockquote>
+                </q>
                 <h4>5 mins ago, <span>Twitter</span></h4>
             </div>
         </div>
-        <div className='news'>
+        <div className='funFacts'>
             <div className='top-head'>
                 <h2>LOGISTIC <span>LATEST NEWS</span></h2>
                 <h6>They say we are the best in the industry</h6>

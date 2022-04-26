@@ -77,13 +77,14 @@
 }
 
 .serviceless-span button {
-  background: yellow;
+  background: rgb(117, 110, 12) !important;
   width: 10em;
-  height: 2em;
+  height: 3em;
   outline: none;
-  border: none;
-  color: rgb(109, 106, 106);
-  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  border-radius: .5em;
   box-sizing: border-box;
   cursor: pointer;
+  font-size: .8em;
+  font-weight: 700;
 }

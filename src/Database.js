@@ -30,7 +30,7 @@ function Database() {
               <div>
                     <div className='searchArea'>
                         <label for='transport type' placeholder='Your message'></label>
-                        <textarea></textarea>
+                        <textarea placeholder='Your Message'></textarea>
                     </div>
               </div>
               <button>Submit <span>Now</span></button>

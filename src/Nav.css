@@ -33,4 +33,5 @@ nav > ul > li {
   display: flex;
   margin: 1em;
   color: aliceblue;
+  cursor: pointer;
 }

@@ -97,15 +97,15 @@ style {
   margin-left: 7em;
 }
 
-button {
-  margin-left: 46vw;
+.offer button {
   width: 150px;
   height: 40px;
   cursor: pointer;
-  background: rgb(236, 222, 24);
-  color: white;
-  font-weight: 900;
-  border-radius: 5px;
+  background: rgb(117, 110, 12) !important;
+  color: white !important;
+  font-weight: 500;
+  border-radius: .5em;
   box-sizing: border-box;
   outline: none;
+  margin-left: 46vw !important;
 }

@@ -6,20 +6,20 @@
 
 .database {
     height: 70vh;
-    width: 44vw;
+    width: 70vw;
     align-items: center;
-    margin-left: 28vw;
+    background-color: rgb(236, 233, 233);
+    margin-left: 15vw !important;
 }
 
 .database h3 {
     text-align: center;    
-    color: rgb(90, 89, 89);
+    color: rgb(112, 102, 102);
     font-weight: 400;
     width: 30vw;
-    margin-top: 10vh;
     margin: 0;
-    margin-top: 10vh;
-    margin-left: 7vw;
+    margin-left: 20vw;
+    padding-top: 7vh;
 }
 
 .searchDiv {
@@ -31,6 +31,9 @@
     height: 5vh;
     width: 11vw;
     margin-top: 5vw;
+    outline: none;
+    padding-left: 1.5em;
+    font-size: .8em;
     outline: none;
 }
 
@@ -45,13 +48,26 @@ textarea {
     height: 30vh;
     margin-bottom: 2vh;
     outline: none;
-    font-size: 1.2em;
+    font-size: 1em;
     padding: 2em;
+    border: none;
+    border-top: 1px solid rgb(235, 232, 232);
 }
 
-button {
+.inputDiv button {
     align-items: center;
-    margin: 0;
-    margin-left: 18vw;
+    margin-left: 32vw !important;
     border: none;
+    background-color: rgb(92, 86, 86) !important;
+    color: yellow !important;
+    text-transform: uppercase;
+    height: 3em;
+    width: 10em;
+    border-radius: .5em;
+    cursor: pointer;
+}
+
+.inputSearch input {
+    border: none;
+    border-right: 1px solid rgb(228, 228, 228);
 }

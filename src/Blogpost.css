@@ -1,0 +1,37 @@
+.dataInfo img {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center fixed;
+    object-fit: cover;
+    position: relative;
+}
+
+.dataInfo h4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.dataInfo h3 {
+    position: absolute;
+    top: 1em;
+    left: 0;
+}
+
+.blogpost {
+    display: flex;
+}
+
+.blogCred {
+    font-size: .6em;
+    margin: 0;
+    padding: 1em 0;
+}
+
+.blogMore {
+    font-size: .8em;
+    margin: 0;
+    padding: 0;
+}

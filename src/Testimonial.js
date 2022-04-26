@@ -33,7 +33,7 @@ function Testimonial() {
                     factories across much of Europe. Russia is also one of
                     the continent’s key sources of oil.
                 </q>
-                <h4>5 mins ago, <span>Twitter</span></h4>
+                <h4 className='quotesh4'>5 mins ago, <span>Twitter</span></h4>
             </div>
         </div>
         <div className='funFacts'>

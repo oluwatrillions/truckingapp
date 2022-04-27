@@ -30,4 +30,91 @@
 .contact h6 {
     text-align: start;
     width: 15vw;
+    line-height: 1.5em;
+    color: rgb(185, 184, 184);
+    font-size: .8em;
+    font-weight: 600;
+}
+
+.our-Info {
+    margin-top: 3vh;
+}
+
+.reachUs {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1em;
+    margin-bottom: 1vh;
+}
+
+.reachUs img {
+    width: 1em;
+    height: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+.reachUs h5 {
+    color: rgb(185, 184, 184);
+    font-weight: 600;
+}
+
+.socials {
+    margin-top: 2em;
+}
+
+.socials h6 {
+    width: 15vw;
+    color: rgb(185, 184, 184);
+    line-height: 1.5em;
+    font-size: .8em;
+    font-weight: 100;
+}
+
+.widget h2 {
+    font-size: 1em;
+    color: rgb(213, 217, 219);
+}
+
+.feeds h6 {
+    color: rgb(216, 202, 12);
+}
+
+.links-ul {
+    list-style-type: none;
+    margin-top: 3vh;
+}
+
+.usefulLinks h2 {
+    font-size: 1em;
+    color: rgb(213, 217, 219);
+}
+
+.links-ul li{
+    margin-bottom: 1em;
+    color: rgb(185, 184, 184);
+}
+
+.instagram {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 1.5em;
+    margin: 0;
+    padding: 0; 
+   
+}
+
+.instagram img {
+    width: 5em;
+    height: 5em;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.IG h3 {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 3vh;
+    color: rgb(213, 217, 219);
 }

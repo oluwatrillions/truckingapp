@@ -2,7 +2,6 @@ import React from 'react'
 import truckImg from './images/trucks.jpg'
 import Nav from './Nav'
 import './Hero.css'
-import Container from '@material-ui/core/Container'
 
 function Hero() {
     return (

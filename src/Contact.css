@@ -1,0 +1,33 @@
+*, div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+
+.contactUs {
+    height: 50vh;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 8vh 15vw;
+    background: rgb(53, 51, 51);
+}
+
+.logo-Div img {
+    width: 3em;
+    height: 3em;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.logo-Div h5 {
+    font-size: .7em;
+    color: rgb(216, 202, 12);
+    margin-bottom: 3vh;
+}
+
+.contact h6 {
+    text-align: start;
+    width: 15vw;
+}

@@ -35,6 +35,7 @@
     padding-left: 1.5em;
     font-size: .8em;
     outline: none;
+    color: black;
 }
 
 .searchArea {
@@ -48,10 +49,11 @@ textarea {
     height: 30vh;
     margin-bottom: 2vh;
     outline: none;
-    font-size: 1em;
+    font-size: 1.5em;
     padding: 2em;
     border: none;
     border-top: 1px solid rgb(235, 232, 232);
+    color: grey;
 }
 
 .inputDiv button {

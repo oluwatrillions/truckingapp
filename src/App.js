@@ -7,17 +7,20 @@ import Testimonial from './Testimonial'
 import './App.css'
 import Database from './Database'
 import Contact from './Contact'
+import Container from '@material-ui/core/Container'
 
 function App() {
   return (
     <div className="App">
+      <Container>
       <Hero />
       <Services />
       <Experience />
       <Offers />
       <Testimonial />
       <Database />
-      <Contact />
+        <Contact />
+        </Container>
     </div>
   );
 }

@@ -2,6 +2,7 @@ import React from 'react'
 import truckImg from './images/trucks.jpg'
 import Nav from './Nav'
 import './Hero.css'
+import Container from '@material-ui/core/Container'
 
 function Hero() {
     return (
@@ -14,7 +15,7 @@ function Hero() {
                     <h3>Contact us for the best freight services. We offer the best deals in transportation and moving services.</h3>
                 </div>
             </div>
-            <Nav/>
+                <Nav />
         </div>
     )
 }

@@ -4,9 +4,18 @@ import './Database.css'
 function Database() {
     const [name, setName] = useState('')
     const [cargo, setCargo] = useState('')
-    const [destintion, setDestination] = useState('')
+    const [destination, setDestination] = useState('')
     const [transport, setTransport] = useState('')
     const [message, setMessage] = useState('')
+
+    const enquiry = () => {
+        console.log(name);
+        console.log(cargo);
+        console.log(destination);
+        console.log(transport);
+        console.log(message);
+    }
+
   return (
       <div className='database'>
           <h3>
@@ -15,25 +24,25 @@ function Database() {
           <div className='inputDiv'>
                 <div className='searchDiv'>
                     <div className='inputSearch'>
-                        <input type='text' placeholder='Search Name'></input>
+                        <input type='text' placeholder='Search Name' onChange={(e)=>{setName(e.target.value)}}></input>
                     </div>
                     <div className='inputSearch' >
-                       <input type='text' placeholder='Cargo Type'></input>
+                       <input type='text' placeholder='Cargo Type' onChange={(e)=>{setCargo(e.target.value)}}></input>
                     </div>
                     <div className='inputSearch' >
-                        <input type='text' placeholder='Choose Destination'></input>
+                        <input type='text' placeholder='Choose Destination' onChange={(e)=>{setDestination(e.target.value)}}></input>
                     </div>
                     <div className='inputSearch'>
-                        <input type='text' placeholder='Transport Type'></input>
+                        <input type='text' placeholder='Transport Type' onChange={(e)=>{setTransport(e.target.value)}}></input>
                     </div>
               </div>
               <div>
                     <div className='searchArea'>
                         <label for='transport type' placeholder='Your message'></label>
-                        <textarea placeholder='Your Message'></textarea>
+                        <textarea placeholder='Your Message' onChange={(e)=>{setMessage(e.target.value)}}></textarea>
                     </div>
               </div>
-              <button>Submit <span>Now</span></button>
+              <button onClick={enquiry}>Submit <span>Now</span></button>
           </div>
           
     </div>

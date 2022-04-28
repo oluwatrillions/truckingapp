@@ -7,7 +7,7 @@ import Container from '@material-ui/core/Container'
 
 function Hero() {
     return (
-        <Container maxWidth='xl' >
+        <Container maxWidth='xl' className='hero-page'>
             <div className='hero-page'>
                 <div className='heroImg'>
                     <img className='hero' src={truckImg} alt='' />

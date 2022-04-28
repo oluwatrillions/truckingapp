@@ -39,7 +39,7 @@ function Experience() {
                         warehouse design plans are larger, smarter, and more<br />
                         flexible. This issue draws a blueprint for warehousing<br />
                         best practices that support supply chain optimization.</h6>
-                    <Container >
+                    <Container className='services-icon' maxWidth='lg'>
                         <div className='services-icon'>
                             <div>
                                 <img src={packaging} alt='' />

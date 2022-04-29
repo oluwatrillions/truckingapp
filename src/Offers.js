@@ -11,11 +11,11 @@ import { Container } from '@material-ui/core';
 function Offers() {
     return <Container className='offer' maxWidth='xl'>
         <div className='offer'>
-            <Container maxWidth='md'>
+            <Container maxWidth='xs'>
                 <div className='offer-story'>
-                    <h1>OUR <span>AWESOME OFFERS</span></h1>
-                    <h6>Search our databases for the Top Providers in key segments of <br /><span>
-                    the supply chain industry.</span></h6>
+                    <h1>OUR<span> AWESOME OFFERS</span></h1>
+                    <h6>Search our databases for the Top Providers in key segments of
+                    the supply chain industry.</h6>
                 </div>
             </Container>
             <Container maxWidth='xl' className='offers'>

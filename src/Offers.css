@@ -1,4 +1,4 @@
-* {
+*, img, div {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -17,21 +17,16 @@
 .offers img {
   width: 2em;
   height: 2em;
-  margin: 0;
-  padding: 0;
   opacity: 1;
 }
 
 .offers {
-  display: grid;
-  grid-template-columns: 270px 270px 270px;
+  display: grid !important;
+  grid-template-columns: 15vw 15vw 15vw;
+  grid-template-rows: 15vh 15vh 15vh;
+  justify-content: center;
   grid-gap: 1.2em;
-  justify-content: start;
-  margin-left: 28vw;
-  margin-bottom: 3em;
-  padding: 0;
   color: white;
-  box-sizing: border-box;
 }
 
 .offer-divs {
@@ -69,14 +64,24 @@
 }
 
 .offer-story h6 {
-  font-size: 0.8em;
+  font-size: 1em;
   color: rgb(207, 206, 206);
   font-weight: 100;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 20vw;
 }
 
 .offer-story h1 {
   font-size: 1.3em;
   color: rgb(228, 225, 225);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
+  margin-bottom: 3vh;
 }
 
 .offer-story > h1 > span {
@@ -100,3 +105,10 @@
   outline: none;
   margin-left: 46vw !important;
 }
+
+/* .offer-story {
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+} */

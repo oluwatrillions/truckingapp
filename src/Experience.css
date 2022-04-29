@@ -9,7 +9,7 @@
   height: 80vh;
   display: grid;
   grid-template-columns: 40vw 60vw;
-  grid-template-rows: 50vh 50vh;
+  grid-template-rows: 50vh 50vh !important;
   justify-content: center;
   box-sizing: border-box;
 }

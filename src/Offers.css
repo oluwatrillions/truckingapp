@@ -6,9 +6,9 @@
 
 .offer {
   width: 100vw;
-  height: 80vh;
+  height: 80vh !;
   display: grid;
-  grid-template-rows: 20% 80%;
+  grid-template-rows: 20% 80% !;
   background: rgb(63, 62, 62);
   box-sizing: border-box;
   color: white;
@@ -22,15 +22,20 @@
 
 .offers {
   display: grid !important;
-  grid-template-columns: 15vw 15vw 15vw;
-  grid-template-rows: 15vh 15vh 15vh;
+  grid-template-columns: 18vw 18vw 18vw;
+  grid-template-rows: 18vh 18vh 18vh;
   justify-content: center;
   grid-gap: 1.2em;
   color: white;
+  width: 60vw;
+  margin-top: 3vh;
+  margin-bottom: 0;
 }
 
 .offer-divs {
   display: flex;
+  justify-content: center;
+  align-items: center;
   background: rgb(53, 51, 51);
   padding: 1.2em;
 }
@@ -43,6 +48,8 @@
 .firstoffer h3 {
   color: rgb(209, 206, 206);
   font-weight: 100;
+  overflow: hidden;
+  word-wrap: break-word;
 }
 
 .firstoffer > h3 > span {
@@ -51,6 +58,8 @@
 
 .firstoffer h6 {
   color: rgb(185, 184, 184);
+  overflow: hidden;
+  word-wrap: break-word;
 }
 
 .offer-divs h3 {
@@ -72,6 +81,7 @@
   justify-content: center;
   text-align: center;
   width: 20vw;
+  overflow: hidden;
 }
 
 .offer-story h1 {
@@ -101,14 +111,10 @@
   color: white !important;
   font-weight: 500;
   border-radius: .5em;
-  box-sizing: border-box;
   outline: none;
-  margin-left: 46vw !important;
-}
-
-/* .offer-story {
-  width: 20vw;
+  margin-top: 0;
+  align-items: center;
   display: flex;
+  justify-content: center;
   flex-direction: column;
-  align-items: flex-end;
-} */
+}

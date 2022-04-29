@@ -5,8 +5,8 @@
 }
 
 .experience {
-  width: 100vw;
-  height: 80vh;
+  width: 100vw !;
+  height: 80vh !;
   display: grid;
   grid-template-columns: 40vw 60vw;
   grid-template-rows: 50vh 50vh !important;

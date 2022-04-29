@@ -6,7 +6,7 @@ import contract from './images/contract.png'
 import support from './images/support.png'
 import destination from './images/destination.png'
 import tracking from './images/tracking.png'
-import { Container } from '@material-ui/core';
+import { Button, Container } from '@material-ui/core';
 
 function Offers() {
     return <Container className='offer' maxWidth='xl'>
@@ -70,8 +70,10 @@ function Offers() {
                     </div>
                 </div>
             </Container>
-            <button>VIEW <span>ALL OFFER</span></button>
-        </div>;
+            <Button>
+                <button>VIEW <span>ALL OFFER</span></button>
+            </Button>
+        </div>
         </Container>
 }
 

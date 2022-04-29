@@ -7,17 +7,23 @@
 .database {
     height: 70vh;
     min-width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     background-color: rgb(236, 233, 233);
+    overflow: hidden;
 }
 
 .database h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;    
     color: rgb(112, 102, 102);
     font-weight: 400;
-    width: 30vw;
     margin: 0;
-    margin-left: 20vw;
+    width: 30vw;
     padding-top: 7vh;
 }
 
@@ -55,7 +61,16 @@ textarea {
     color: grey;
 }
 
+.inputDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
 .inputDiv button {
+    align-items: center;
     border: none;
     background-color: rgb(92, 86, 86) !important;
     color: yellow !important;

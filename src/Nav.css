@@ -15,7 +15,7 @@
   justify-content: space-around;
   background: rgb(46, 45, 45);
   height: 7vh;
-  min-width: 100vw;
+  width: 100vw;
 }
 
 .logo img {

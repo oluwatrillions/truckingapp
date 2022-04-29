@@ -6,7 +6,7 @@
 
 .offer {
   width: 100vw;
-  height: 80vh !;
+  height: 70vh ;
   display: grid;
   grid-template-rows: 20% 80% !;
   background: rgb(63, 62, 62);
@@ -23,13 +23,12 @@
 .offers {
   display: grid !important;
   grid-template-columns: 18vw 18vw 18vw;
-  grid-template-rows: 18vh 18vh 18vh;
+  grid-template-rows: auto;
   justify-content: center;
   grid-gap: 1.2em;
   color: white;
   width: 60vw;
-  margin-top: 3vh;
-  margin-bottom: 0;
+  overflow: hidden;
 }
 
 .offer-divs {
@@ -60,6 +59,8 @@
   color: rgb(185, 184, 184);
   overflow: hidden;
   word-wrap: break-word;
+  font-size: .8em;
+  text-align: start;
 }
 
 .offer-divs h3 {
@@ -80,7 +81,6 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  width: 20vw;
   overflow: hidden;
 }
 
@@ -112,9 +112,7 @@
   font-weight: 500;
   border-radius: .5em;
   outline: none;
-  margin-top: 0;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+  margin: auto;
+
 }
+

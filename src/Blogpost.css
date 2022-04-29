@@ -1,6 +1,6 @@
 .dataInfo img {
-    width: 100px;
-    height: 100px;
+    width: 5.5vw;
+    height: 10vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center fixed;
@@ -22,14 +22,13 @@
 
 .blogpost {
     display: flex;
-    gap: 2em;
+    gap: 1em;
 }
 
 .blogCred {
     font-size: .6em;
-    margin-left: 0em;
-    margin-top: 2.4em;
-    margin-bottom: 1.5em;
+    margin-top: 1.7vh;
+    margin-bottom: .8vh;
     color: rgb(179, 179, 179);
 }
 
@@ -38,14 +37,14 @@
 }
 
 .blogDesc {
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: 500;
+    overflow: hidden;
     color: rgb(208, 210, 212);
 }
 
 .blogMore {
     font-size: .8em;
-    margin-left: 0em;
     margin-top: 1em;
     color: rgb(28, 176, 235);
     cursor: pointer;

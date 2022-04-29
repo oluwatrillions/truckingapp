@@ -1,3 +1,4 @@
+import { Container } from '@material-ui/core'
 import React, { useState } from 'react'
 import './Database.css'
 
@@ -16,7 +17,8 @@ function Database() {
         console.log(message);
     }
 
-  return (
+    return (
+      <Container className='database' maxWidth='lg'>
       <div className='database'>
           <h3>
               Search our databases of the Top 100 providers in key segments of the supply chain industry.
@@ -44,8 +46,8 @@ function Database() {
               </div>
               <button onClick={enquiry}>Submit <span>Now</span></button>
           </div>
-          
-    </div>
+            </div>
+            </Container>
   )
 }
 

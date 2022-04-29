@@ -6,10 +6,9 @@
 
 .database {
     height: 70vh;
-    width: 70vw;
+    min-width: 60vw;
     align-items: center;
     background-color: rgb(236, 233, 233);
-    margin-left: 15vw !important;
 }
 
 .database h3 {
@@ -57,8 +56,6 @@ textarea {
 }
 
 .inputDiv button {
-    align-items: center;
-    margin-left: 32vw !important;
     border: none;
     background-color: rgb(92, 86, 86) !important;
     color: yellow !important;

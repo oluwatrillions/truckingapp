@@ -12,7 +12,6 @@ div {
   grid-template-rows: auto;
   grid-gap: 2em;
   background: rgb(53, 51, 51);
-  padding-top: 2em;
   justify-content: center;
 }
 
@@ -37,8 +36,9 @@ div {
 }
 
 .top-head {
-  margin-top: 4em;
+  margin-top: 5vh;
   border-bottom: 1px solid black;
+  overflow: hidden;
 }
 
 .top-head h6 {
@@ -56,16 +56,17 @@ div {
 }
 
 .quotes {
- padding-top: 3em; 
+ padding-top: 2vh; 
  text-align: center;
  background-color: rgb(56, 54, 54);
+ overflow: hidden;
 }
 
 .quotes h2 {
   font-weight: 400;
   color: rgb(158, 154, 154);
   font-size: 1em;
-  margin-bottom: 1em;
+  margin-bottom: 2vh;
 }
 
 .quotes span {
@@ -75,7 +76,7 @@ div {
 
 q {
   text-align: center;
-  line-height: 1.5em;
+  line-height: 2.3vh;
   color: rgb(165, 166, 167);
   font-size: 1em;
   padding: 0 2em;
@@ -86,7 +87,7 @@ q {
   flex-direction: column;
   justify-content: flex-start;
   margin: 0;
-  margin-top: 1em;
+  margin-top: 1.5vh;
   padding: 0;
   font-size: 1em;
   display: block;

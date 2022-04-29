@@ -54,7 +54,7 @@ div > h3 {
     background-position: center center fixed;
     object-fit: cover;
     width: 100vw !important;
-    max-height: 90vh !important;
+    height: 50vh;
     position: relative;
   }
   div>h1 {
@@ -67,7 +67,7 @@ div > h3 {
   .heroImg>div {
     position: absolute;
     width: 100vw;
-    top: 3vh;
+    top: 10vh;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;

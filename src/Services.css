@@ -86,3 +86,48 @@
   font-size: .8em;
   font-weight: 700;
 }
+
+@media only screen and (max-width:500px){
+  .serviceless {
+    max-width: 100vw;
+    background: rgb(63, 62, 62);
+    padding-top: 1vh;
+  }
+  
+  .servicesInfo {
+    display: grid;
+    grid-template-columns: 95vw;
+    margin-bottom: 2vh;
+  }
+
+  .firstInfo h6 {
+    font-size: 1em;
+    color: white;
+    font-weight: 300;
+    text-align: left;
+  }
+  
+  .firstInfo h5 {
+    font-size: 1em;
+    color: white;
+    font-weight: 300;
+    margin-top: 1em;
+    text-align: left;
+  }
+
+  .secondInfo h3 {
+    font-size: 1em;
+    color: rgb(247, 238, 238);
+    font-weight: 300;
+    text-align: center;
+    margin-top: 0;
+    width: 50vw;
+  }
+
+  .serviceless {
+    max-width: 100vw;
+    height: 70vh;
+    background: rgb(63, 62, 62);
+    padding-top: 0;
+  }
+} 

@@ -46,3 +46,50 @@ div > h3 {
   box-sizing: border-box;
   text-align: center;
 }
+
+@media screen and (max-width: 500px){
+  .heroImg img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center fixed;
+    object-fit: cover;
+    width: 100vw !important;
+    max-height: 90vh !important;
+    position: relative;
+  }
+  div>h1 {
+    font-size: 1em;
+    font-weight: 100;
+    color: rgb(175, 74, 74);
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .heroImg>div {
+    position: absolute;
+    width: 100vw;
+    top: 3vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  div>h4 {
+    font-size: .8em;
+    margin-top: .8em;
+    color: rgb(97, 75, 75);
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  div>h3 {
+    margin-top: 1em;
+    color: rgb(34, 35, 36);
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: 100;
+    font-size: .7em;
+    width: 70vw;
+    margin-left: 12vw;
+  }
+}

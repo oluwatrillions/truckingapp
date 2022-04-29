@@ -22,7 +22,7 @@ function BlogPost({dataInfo}) {
           </div>
           </Container>
       })}
-  </div>;
+  </div>
 }
 
 export default BlogPost

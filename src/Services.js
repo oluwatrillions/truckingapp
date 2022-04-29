@@ -12,20 +12,20 @@ function Services() {
                     <Container className='firstInfo' maxWidth='lg'>
                         <div >
                             <h6>
-                                To meet new shipper and consumer demanda, modern design <br/>
+                                To meet new shipper and consumer demanda, modern design
                                 plans are larger, smarter, and more flexible. This issue draws a blueprint
-                                for <br/> warehousing best practices that support supply chain optimization.
+                                for warehousing best practices that support supply chain optimization.
                             </h6>
 
                             <h5>
-                                Also: Intermodal rail moves supply chain efficiency <br/> in the right direction.
+                                Also: Intermodal rail moves supply chain efficiency in the right direction.
                             </h5>
                         </div>
                     </Container>
                     <Container className='secondInfo'>
                         <div >
                             <h3>
-                                WE ARE TOBIES <br/> <span>WORLDWIDE FREIGHT <br/> SERVICE</span>.
+                                WE ARE TOBIES <span>WORLDWIDE FREIGHT SERVICE</span>.
                             </h3>
                         </div>
                     </Container>

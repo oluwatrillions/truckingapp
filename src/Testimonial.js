@@ -42,8 +42,10 @@ function Testimonial() {
                     <div className='top-head'>
                         <h2>LOGISTIC <span>LATEST NEWS</span></h2>
                         <h6>They say we are the best in the industry</h6>
-                    </div>
-                    < BlogPost dataInfo= { data} />
+                </div>
+                <div className='dateDiv'>
+                    < BlogPost dataInfo={data} />
+                </div>
                 </div>
             </div>
         </Container>

@@ -14,7 +14,7 @@ function OurServices({services}) {
                         <h6 className='serviceh6'>{ description}</h6>
                         </div>
         })}
-                        </div>;
+                        </div>
         </Container>
 }
 

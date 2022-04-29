@@ -41,16 +41,14 @@ function Contact() {
           <div className='widget'>
               <h2>TWITTER WIDGET</h2>
               <div className='socials'>
-                  <h6>intelligence-sharing also paved the way for Ukraine to shoot down a Russian transport plane carrying hundreds of troops in the early days of the war, the officials say, helping repel a Russian assault on a key airport near Kyiv.
-                    The details about the air defenses and the transport plane</h6>
+                  <h6>intelligence-sharing also paved the way for Ukraine to shoot down a Russian transport plane carrying hundreds of troops in the early days of the war, the officials say, helping repel a Russian assault on a key airport</h6>
                   <div className='feeds'>
                       <img src='' alt='' />
                       <h6>5 min ago</h6>
                   </div>
               </div>
               <div className='socials'>
-                  <h6>intelligence-sharing also paved the way for Ukraine to shoot down a Russian transport plane carrying hundreds of troops in the early days of the war, the officials say, helping repel a Russian assault on a key airport near Kyiv.
-                    The details about the air defenses and the transport plane</h6>
+                  <h6>intelligence-sharing also paved the way for Ukraine to shoot down a Russian transport plane carrying hundreds of troops in the early days of the war, the officials say, helping repel a Russian assau</h6>
                   <div className='feeds'>
                       <img src='' alt='' />
                       <h6>5 min ago</h6>

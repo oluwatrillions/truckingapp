@@ -65,7 +65,7 @@ function Experience() {
                     </Container>
                 </div>
             </Container>
-        </div>;
+        </div>
     </Container>
 }
 

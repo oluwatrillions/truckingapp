@@ -6,11 +6,13 @@
 }
 
 .contactUs {
-    height: 50vh;
+    min-height: 50vh;
+    min-width: 100vw;
     display: grid;
     grid-template-columns: auto auto auto auto;
     padding: 8vh 15vw;
     background: rgb(53, 51, 51);
+    overflow: hidden;
 }
 
 .logo-Div img {
@@ -25,6 +27,7 @@
     font-size: .7em;
     color: rgb(216, 202, 12);
     margin-bottom: 3vh;
+    overflow: hidden;
 }
 
 .contact h6 {
@@ -34,10 +37,12 @@
     color: rgb(185, 184, 184);
     font-size: .8em;
     font-weight: 600;
+    overflow: hidden;
 }
 
 .our-Info {
     margin-top: 3vh;
+    overflow: hidden;
 }
 
 .reachUs {

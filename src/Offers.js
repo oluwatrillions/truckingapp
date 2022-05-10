@@ -9,17 +9,17 @@ import tracking from './images/tracking.png'
 import { Container } from '@material-ui/core';
 
 function Offers() {
-    return <Container className='offer' maxWidth='xl'>
+    return <Container >
     <div className='offer'>
-            <Container maxWidth='xs'>
+            <Container>
                 <div className='offer-story'>
                     <h1>OUR<span> AWESOME OFFERS</span></h1>
                     <h6>Search our databases for the Top Providers in key segments of
                     the supply chain industry.</h6>
                 </div>
             </Container>
-            <Container maxWidth='xl' className='offers'>
-                <div>
+            <Container>
+                <div className='offers'>
                     <div className='offer-divs'>
                         <img src={warehouse} alt='' />
                         <div className='firstoffer'>

@@ -19,7 +19,7 @@ function Offers() {
                 </div>
             </Container>
             <Container maxWidth='xl' className='offers'>
-                <div className='offers'>
+                <div>
                     <div className='offer-divs'>
                         <img src={warehouse} alt='' />
                         <div className='firstoffer'>

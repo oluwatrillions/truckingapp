@@ -7,7 +7,7 @@ import Container from '@material-ui/core/Container'
 
 function Hero() {
     return (
-        <Container>
+        <Container maxWidth='xl'>
             <div className='hero-page'>
                 <div className='heroImg'>
                     <img className='hero' src={truckImg} alt='' />
@@ -20,7 +20,7 @@ function Hero() {
                     </div>
                 </div>
                     <Nav />
-                </div>
+            </div>
          </Container>
     )
 }

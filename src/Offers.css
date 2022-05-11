@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+.MuiContainer-root {
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+
 .offer {
   width: 100vw;
   height: 70vh ;

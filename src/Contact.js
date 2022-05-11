@@ -15,7 +15,7 @@ import { Container } from '@material-ui/core'
 
 function Contact() {
     return (
-    <Container>
+    <Container maxWidth='xl'>
       <div className='contactUs'>
           <div className='contact'>
               <div className='logo-Div'>

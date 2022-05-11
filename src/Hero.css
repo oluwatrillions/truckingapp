@@ -7,6 +7,17 @@ nav {
   box-sizing: border-box;
 }
 
+.MuiContainer-root {
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.hero-page {
+    width: 100vw;
+}
+
 .heroImg img {
   background-size: cover;
   background-repeat: no-repeat;

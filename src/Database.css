@@ -12,6 +12,13 @@
     align-items: center;
 }
 
+.MuiContainer-root {
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+
 .database {
     height: 70vh;
     width: 70vw;

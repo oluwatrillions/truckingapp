@@ -18,7 +18,7 @@ function Database() {
     }
 
     return (
-        <Container>
+        <Container maxWidth='xl'>
             <div className='db-container'>
                 <div className='database'>
                     <h3>

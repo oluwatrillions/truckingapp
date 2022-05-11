@@ -5,9 +5,16 @@
     color: aliceblue;
 }
 
+.MuiContainer-root {
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+
 .contactUs {
-    min-height: 50vh;
-    min-width: 100vw;
+    height: 50vh;
+    width: 100vw;
     display: grid;
     grid-template-columns: auto auto auto auto;
     padding: 8vh 15vw;

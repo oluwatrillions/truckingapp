@@ -10,7 +10,7 @@ import energy from './images/energy.png'
 import { Container } from '@material-ui/core';
 
 function Experience() {
-    return <Container>
+    return <Container maxWidth='xl'>
         <div className='experience'>
             <Container className='shipping'>
                 <div className='shipping'>

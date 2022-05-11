@@ -18,36 +18,38 @@ function Database() {
     }
 
     return (
-      <Container className='database' maxWidth='lg'>
-      <div className='database'>
-          <h3>
-              Search our databases of the Top 100 providers in key segments of the supply chain industry.
-          </h3>
-          <div className='inputDiv'>
-                <div className='searchDiv'>
-                    <div className='inputSearch'>
-                        <input type='text' placeholder='Search Name' onChange={(e)=>{setName(e.target.value)}}></input>
+        <Container>
+            <div className='db-container'>
+                <div className='database'>
+                    <h3>
+                        Search our databases of the Top 100 providers in key segments of the supply chain industry.
+                    </h3>
+                    <div className='inputDiv'>
+                            <div className='searchDiv'>
+                                <div className='inputSearch'>
+                                    <input type='text' placeholder='Search Name' onChange={(e)=>{setName(e.target.value)}}></input>
+                                </div>
+                                <div className='inputSearch' >
+                                <input type='text' placeholder='Cargo Type' onChange={(e)=>{setCargo(e.target.value)}}></input>
+                                </div>
+                                <div className='inputSearch' >
+                                    <input type='text' placeholder='Choose Destination' onChange={(e)=>{setDestination(e.target.value)}}></input>
+                                </div>
+                                <div className='inputSearch'>
+                                    <input type='text' placeholder='Transport Type' onChange={(e)=>{setTransport(e.target.value)}}></input>
+                                </div>
+                        </div>
+                        <div>
+                                <div className='searchArea'>
+                                    <label for='transport type' placeholder='Your message'></label>
+                                    <textarea placeholder='Your Message' onChange={(e)=>{setMessage(e.target.value)}}></textarea>
+                                </div>
+                        </div>
+                        <button onClick={enquiry}>Submit <span>Now</span></button>
                     </div>
-                    <div className='inputSearch' >
-                       <input type='text' placeholder='Cargo Type' onChange={(e)=>{setCargo(e.target.value)}}></input>
-                    </div>
-                    <div className='inputSearch' >
-                        <input type='text' placeholder='Choose Destination' onChange={(e)=>{setDestination(e.target.value)}}></input>
-                    </div>
-                    <div className='inputSearch'>
-                        <input type='text' placeholder='Transport Type' onChange={(e)=>{setTransport(e.target.value)}}></input>
-                    </div>
-              </div>
-              <div>
-                    <div className='searchArea'>
-                        <label for='transport type' placeholder='Your message'></label>
-                        <textarea placeholder='Your Message' onChange={(e)=>{setMessage(e.target.value)}}></textarea>
-                    </div>
-              </div>
-              <button onClick={enquiry}>Submit <span>Now</span></button>
-          </div>
+                </div>
             </div>
-            </Container>
+        </Container>
   )
 }
 

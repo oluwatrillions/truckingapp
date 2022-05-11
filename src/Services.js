@@ -6,10 +6,10 @@ import { Container } from '@material-ui/core'
 
 function Services() {
     return (
-        <Container maxWidth='xl' className='serviceless'>
+        <Container>
             <div className='serviceless'>
                 <div className='servicesInfo'>
-                    <Container className='firstInfo' maxWidth='lg'>
+                    <Container className='firstInfo'>
                         <div >
                             <h6>
                                 To meet new shipper and consumer demanda, modern design

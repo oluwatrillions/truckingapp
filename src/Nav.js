@@ -6,14 +6,14 @@ import Container from '@material-ui/core/Container'
 
 function Nav() {
     return (
-        <Container maxWidth='xl' className='navSection'>
+        <Container>
             <div className='navSection'>
                 <div className='logo'>
                     <img src={Logo} alt='' />
                     <h6>Logistics and Transportation</h6>
                 </div>
                 <div className='navBar'>
-                    <Container className='navBar' maxWidth='lg'>
+                    <Container className='navBar'>
                         <nav>
                             <ul>
                                 <li>HOME</li>

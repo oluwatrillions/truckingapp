@@ -10,8 +10,8 @@ import energy from './images/energy.png'
 import { Container } from '@material-ui/core';
 
 function Experience() {
-    return <Container className='experience' maxWidth='xl'>
-        <div className='experience' maxWidth='sm'>
+    return <Container>
+        <div className='experience'>
             <Container className='shipping'>
                 <div className='shipping'>
                     <h2>Shipping <span>Experience</span></h2>
@@ -31,7 +31,7 @@ function Experience() {
             <div>
                 <img className='trucking-image' src={image} alt='' />
             </div>
-            <Container className='services-icons'>
+            <Container>
                 <div className='services-icons'>
                     <h1>WHAT OUR ADVANTAGES</h1>
                     <h3>TRANSPORT AND LOGIZTICS</h3>
@@ -39,7 +39,7 @@ function Experience() {
                         warehouse design plans are larger, smarter, and more<br />
                         flexible. This issue draws a blueprint for warehousing<br />
                         best practices that support supply chain optimization.</h6>
-                    <Container className='services-icon' maxWidth='lg'>
+                    <Container>
                         <div className='services-icon'>
                             <div>
                                 <img src={packaging} alt='' />

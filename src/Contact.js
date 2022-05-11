@@ -15,7 +15,7 @@ import { Container } from '@material-ui/core'
 
 function Contact() {
     return (
-      <Container className='contactUs' maxwidth='xl'>
+    <Container>
       <div className='contactUs'>
           <div className='contact'>
               <div className='logo-Div'>
@@ -78,8 +78,8 @@ function Contact() {
                 <img src={IG5} alt=''/>
           </div>
           </div>
-            </div>
-            </Container>
+        </div>
+    </Container>
   )
 }
 

@@ -12,13 +12,6 @@
     align-items: center;
 }
 
-.MuiContainer-root {
-    padding-left: 0;
-    padding-right: 0;
-    margin-right: 0;
-    margin-left: 0;
-}
-
 .database {
     height: 70vh;
     width: 70vw;
@@ -99,4 +92,16 @@ textarea {
 .inputSearch input {
     border: none;
     border-right: 1px solid rgb(228, 228, 228);
+}
+
+.database h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(112, 102, 102);
+    font-weight: 400;
+    margin: 0;
+    width: 30vw;
+    padding-top: 0;
 }

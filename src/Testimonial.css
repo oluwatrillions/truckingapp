@@ -101,10 +101,22 @@ q {
 }
 
 @media screen and (max-width:500px){
-    .testhy h6 {
-        font-size: .5em;
-            text-transform: uppercase;
-            color: rgb(204, 203, 203);
-            font-weight: 400;
-        }
+.testhy h6 {
+    font-size: .5em;
+    text-transform: uppercase;
+    color: rgb(204, 203, 203);
+    font-weight: 400;
+}
+
+.testimonial {
+    width: 100vw;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw;
+    grid-template-rows: auto;
+    grid-gap: 2em;
+    background: rgb(53, 51, 51);
+    justify-content: center;
+}
+
 }

@@ -10,23 +10,12 @@
   display: block !important;
 }
 
-.MuiContainer-root {
-    padding-left: 0; 
-    padding-right: 0;
-    margin-right: 0;
-    margin-left: 0;
-}
-
 .navSection {
   display: flex;
   justify-content: space-around;
   background: rgb(46, 45, 45);
   height: 7vh;
   width: 100vw;
-  margin-left: 0;
-  margin-right: 0;
-  padding-left: 0;
-  padding-right: 0;
 }
 
 .logo img {
@@ -46,4 +35,37 @@ nav > ul > li {
   color: aliceblue;
   cursor: pointer;
   font-size: 1em;
+}
+
+@media only screen and (max-width: 500px) {
+.navSection {
+  display: flex;
+  justify-content: space-around;
+  background: rgb(46, 45, 45);
+  height: 8vh;
+  width: 100vw;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.logo h6 {
+    color: aliceblue;
+    font-size: .6em;
+    display: block !important;
+}
+
+.navBar>nav>ul {
+    display: flex;
+}
+
+nav>ul>li {
+    display: flex;
+    justify-content: center;
+    margin: 1vw;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: .8em;
+}
 }

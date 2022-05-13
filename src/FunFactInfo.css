@@ -4,14 +4,14 @@
 }
 
 .infoMetrics h3 {
-    font-size: 1.3em;
+    font-size: 1vw;
     margin: 0;
     padding: 0;
     color: rgb(234, 235, 236);
 }
 
 .infoMetrics h4 {
-    font-size: .6em;
+    font-size: .5vw;
     margin: 0;
     padding: 0;
     color: rgb(147, 148, 150);
@@ -19,8 +19,7 @@
 
 .factsMetrics {
     display: flex;
-    justify-content: flex-start;
-    gap: 4em;
+    gap: 4vw;
 }
 
 .infoMetrics span {

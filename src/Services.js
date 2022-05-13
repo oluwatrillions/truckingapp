@@ -7,7 +7,7 @@ function Services() {
     return (
             <div className='serviceless'>
                 <div className='servicesInfo'>
-                        <div >
+                        <div className='firstInfo'>
                             <h6>
                                 To meet new shipper and consumer demanda, modern design
                                 plans are larger, smarter, and more flexible. This issue draws a blueprint

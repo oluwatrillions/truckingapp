@@ -5,18 +5,11 @@
     color: aliceblue;
 }
 
-.MuiContainer-root {
-    padding-left: 0;
-    padding-right: 0;
-    margin-right: 0;
-    margin-left: 0;
-}
-
 .contactUs {
     height: 50vh;
     width: 100vw;
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 25vw 25vw 25vh 25vw;
     padding: 8vh 15vw;
     background: rgb(53, 51, 51);
     overflow: hidden;
@@ -114,7 +107,6 @@
     row-gap: 1.5em;
     margin: 0;
     padding: 0; 
-   
 }
 
 .instagram img {
@@ -130,4 +122,50 @@
     padding: 0;
     margin-bottom: 3vh;
     color: rgb(213, 217, 219);
+}
+
+@media screen and (max-width:500px){
+.contactUs {
+    height: auto;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 25vw 25vw 25vw 25vw;
+    padding: 4vh 1vw;
+    background: rgb(53, 51, 51);
+    overflow: hidden;
+    }
+
+.our-Info {
+    margin-top: 3vh;
+    overflow: hidden;
+    width: 20vw
+}
+
+.instagram {
+    display: grid;
+    grid-template-columns:12vw 12vw;
+    row-gap: 1em;
+    column-gap: 1em !important;
+    margin: 0;
+    padding: 0;
+}
+
+.links-ul li {
+    margin-bottom: .8em;
+    font-size: .8em;
+    color: rgb(185, 184, 184);
+}
+
+.instagram img {
+    width: 3.5em;
+    height: 3.5em;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.IG h3 {
+    display: flex;
+    justify-content: flex-start;
+}
 }

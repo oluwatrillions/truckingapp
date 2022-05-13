@@ -5,13 +5,6 @@ div {
   padding: 0;
 }
 
-.MuiContainer-root {
-    padding-left: 0;
-    padding-right: 0;
-    margin-right: 0;
-    margin-left: 0;
-}
-
 .testimonial {
   width: 100vw;
   height: 60vh;
@@ -105,4 +98,13 @@ q {
 
 .quotesh4 span {
   color: rgb(28, 176, 235);
+}
+
+@media screen and (max-width:500px){
+    .testhy h6 {
+        font-size: .5em;
+            text-transform: uppercase;
+            color: rgb(204, 203, 203);
+            font-weight: 400;
+        }
 }

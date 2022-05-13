@@ -7,12 +7,10 @@ import good from './images/goods.png'
 import food from './images/food.png'
 import retail from './images/retail.png'
 import energy from './images/energy.png'
-import { Container } from '@material-ui/core';
 
 function Experience() {
-    return <Container  className='experience' maxWidth='xl'>
+    return (
         <div className='experience'>
-            <Container className='shipping'>
                 <div className='shipping'>
                     <h2>Shipping <span>Experience</span></h2>
                     <h4>TOBIES <span>FREIGHT SERVICE</span></h4>
@@ -24,14 +22,12 @@ function Experience() {
                     <h3 className='ship'>Search our databases of the <span>Top 100 providers</span> <br /> in
                     key segments of the supply chain industry.</h3>
                 </div>
-            </Container>
             <div>
                 <img className='truck-image' src={images} alt='' />
             </div>
             <div>
                 <img className='trucking-image' src={image} alt='' />
             </div>
-            <Container>
                 <div className='services-icons'>
                     <h1>WHAT OUR ADVANTAGES</h1>
                     <h3>TRANSPORT AND LOGIZTICS</h3>
@@ -39,7 +35,6 @@ function Experience() {
                         warehouse design plans are larger, smarter, and more<br />
                         flexible. This issue draws a blueprint for warehousing<br />
                         best practices that support supply chain optimization.</h6>
-                    <Container>
                         <div className='services-icon'>
                             <div>
                                 <img src={packaging} alt='' />
@@ -62,11 +57,10 @@ function Experience() {
                                 <h5>Energy <span>Oil & Gas</span></h5>
                             </div>
                         </div>
-                    </Container>
                 </div>
-            </Container>
-        </div>
-    </Container>
+    </div>
+)
 }
+        
 
 export default Experience;

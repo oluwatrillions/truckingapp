@@ -5,11 +5,9 @@ import BlogPost from './BlogPost';
 import data from './BlogNews'
 import FunFactInfo from './FunFactInfo'
 import info from './FunFactsMetrics';
-import { Container } from '@material-ui/core';
 
 function Testimonial() {
-    return <Container className='testimonial' maxWidth='xl'>
-            <div className='testimonial'>
+    return  <div className='testimonial'>
                 <div className='funFacts'>
                     <div className='top-head'>
                         <h2>OUR <span>FUN FACTS</span></h2>
@@ -48,7 +46,7 @@ function Testimonial() {
                 </div>
                 </div>
             </div>
-        </Container>
 }
 
+           
 export default Testimonial;

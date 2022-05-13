@@ -10,12 +10,10 @@ import IG2 from './images/IG-3.jpg'
 import IG3 from './images/IG-4.jpg'
 import IG4 from './images/IG-5.jpg'
 import IG5 from './images/IG-6.jpg'
-import { Container } from '@material-ui/core'
 
 
 function Contact() {
     return (
-    <Container className='contactUs' maxWidth='xl'>
       <div className='contactUs'>
           <div className='contact'>
               <div className='logo-Div'>
@@ -79,7 +77,6 @@ function Contact() {
           </div>
           </div>
         </div>
-    </Container>
   )
 }
 

@@ -23,14 +23,14 @@ nav {
   background-repeat: no-repeat;
   background-position: center center fixed;
   object-fit: cover;
-  width: 100vw !important;
+  width: 100% !important;
   max-height: 90vh !important;
   position: relative;
 }
 
 .heroImg > div {
   position: absolute;
-  width: 100vw;
+  width: 100%;
   top: 20vh;
   display: flex;
   flex-direction: column;

@@ -2,14 +2,11 @@ import React from 'react'
 import OurServices from './OurServices'
 import data from './serviceData'
 import './Services.css'
-import { Container } from '@material-ui/core'
 
 function Services() {
     return (
-        <Container className='serviceless' maxWidth='xl'>
             <div className='serviceless'>
                 <div className='servicesInfo'>
-                    <Container className='firstInfo'>
                         <div >
                             <h6>
                                 To meet new shipper and consumer demanda, modern design
@@ -21,14 +18,11 @@ function Services() {
                                 Also: Intermodal rail moves supply chain efficiency in the right direction.
                             </h5>
                         </div>
-                    </Container>
-                    <Container className='secondInfo'>
-                        <div >
+                        <div className='secondInfo'>
                             <h3>
                                 WE ARE TOBIES <span>WORLDWIDE FREIGHT SERVICE</span>.
                             </h3>
                         </div>
-                    </Container>
                 </div>
                 <div>
                     < OurServices services={ data}/>
@@ -38,7 +32,6 @@ function Services() {
                     <button>Click for Services</button>
                 </div>
             </div>
-        </Container>    
     )
 }
 

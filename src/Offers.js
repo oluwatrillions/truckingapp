@@ -6,19 +6,14 @@ import contract from './images/contract.png'
 import support from './images/support.png'
 import destination from './images/destination.png'
 import tracking from './images/tracking.png'
-import { Container } from '@material-ui/core';
 
 function Offers() {
-    return <Container className='offer' maxWidth='xl'>
-        <div className='offer'>
-                <Container>
+    return <div className='offer'>
                     <div className='offer-story'>
                         <h1>OUR<span> AWESOME OFFERS</span></h1>
                         <h6>Search our databases for the Top Providers in key segments of
                         the supply chain industry.</h6>
                     </div>
-                </Container>
-                <Container>
                     <div className='offers'>
                         <div className='offer-divs'>
                             <img src={warehouse} alt='' />
@@ -69,10 +64,9 @@ function Offers() {
                                 </div>                
                         </div>
                     </div>
-                </Container>
                     <button className='offer-btn'>VIEW <span>ALL OFFER</span></button>
         </div>
-    </Container>
 }
+        
 
 export default Offers;

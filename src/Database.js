@@ -1,4 +1,3 @@
-import { Container } from '@material-ui/core'
 import React, { useState } from 'react'
 import './Database.css'
 
@@ -18,7 +17,6 @@ function Database() {
     }
 
     return (
-        <Container  className='db-container' maxWidth='xl'>
             <div  className='db-container'>
                 <div className='database'>
                     <h3>
@@ -49,7 +47,6 @@ function Database() {
                     </div>
                 </div>
             </div>
-        </Container>
   )
 }
 

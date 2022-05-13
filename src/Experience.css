@@ -176,7 +176,7 @@ blockquote > span {
 
 @media only screen and (max-width:500px){
   .experience {
-    max-width: 90vw;
+    width: 100vw;
     display: grid;
     grid-template-columns: 100vw;
     justify-content: center;
@@ -187,7 +187,7 @@ blockquote > span {
     background-repeat: no-repeat;
     background-position: center center fixed;
     object-fit: cover;
-    width: 100vw;
+    width: 100%;
     height: 50vh;
   }
   
@@ -196,7 +196,7 @@ blockquote > span {
     background-repeat: no-repeat;
     background-position: center center fixed;
     object-fit: cover;
-    width: 100vw;
+    width: 100%;
     height: 50vh;
   }
 }

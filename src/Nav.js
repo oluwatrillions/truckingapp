@@ -6,7 +6,7 @@ import Container from '@material-ui/core/Container'
 
 function Nav() {
     return (
-        <Container maxWidth = 'xl'>
+        <Container className='navSection' maxWidth = 'xl'>
             <div className='navSection'>
                 <div className='logo'>
                     <img src={Logo} alt='' />

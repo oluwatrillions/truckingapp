@@ -18,8 +18,8 @@ function Database() {
     }
 
     return (
-        <Container maxWidth='xl'>
-            <div className='db-container'>
+        <Container  className='db-container' maxWidth='xl'>
+            <div  className='db-container'>
                 <div className='database'>
                     <h3>
                         Search our databases of the Top 100 providers in key segments of the supply chain industry.

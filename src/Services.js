@@ -6,7 +6,7 @@ import { Container } from '@material-ui/core'
 
 function Services() {
     return (
-        <Container maxWidth='xl'>
+        <Container className='serviceless' maxWidth='xl'>
             <div className='serviceless'>
                 <div className='servicesInfo'>
                     <Container className='firstInfo'>

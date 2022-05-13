@@ -11,12 +11,12 @@ import Contact from './Contact'
 function App() {
   return (
     <div className="App">
-      <Hero />
-      <Services />
-      <Experience />
-      <Offers />
-      <Testimonial />
-      <Database />
+        <Hero />
+        <Services />
+        <Experience />
+        <Offers />
+        <Testimonial />
+        <Database />
         <Contact />
     </div>
   );

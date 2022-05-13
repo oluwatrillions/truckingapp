@@ -9,7 +9,7 @@ import tracking from './images/tracking.png'
 import { Container } from '@material-ui/core';
 
 function Offers() {
-    return <Container maxWidth='xl'>
+    return <Container className='offer' maxWidth='xl'>
         <div className='offer'>
                 <Container>
                     <div className='offer-story'>

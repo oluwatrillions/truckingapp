@@ -24,7 +24,7 @@ nav {
   background-position: center center fixed;
   object-fit: cover;
   width: 100% !important;
-  max-height: 90vh !important;
+  height: 90vh !important;
   position: relative;
 }
 
@@ -68,7 +68,7 @@ div > h3 {
     background-position: center center fixed;
     object-fit: cover;
     width: 100vw !important;
-    height: 50vh;
+    height: 50vh !important;
     position: relative;
   }
   div>h1 {

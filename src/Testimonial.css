@@ -110,7 +110,7 @@ q {
 
 .testimonial {
     width: 100vw;
-    height: 70vh;
+    height: auto;
     display: grid;
     grid-template-columns: 20vw 20vw 20vw;
     grid-template-rows: auto;
@@ -119,4 +119,17 @@ q {
     justify-content: center;
 }
 
+.top-head h2 {
+    font-size: .8em;
+    font-weight: 400;
+    color: rgb(158, 154, 154);
+}
+
+q {
+    text-align: center;
+    line-height: 2vh;
+    color: rgb(165, 166, 167);
+    font-size: .8em;
+    padding: 0 2em;
+}
 }

@@ -10,7 +10,7 @@
     width: 100vw;
     display: grid;
     grid-template-columns: 25vw 25vw 25vh 25vw;
-    padding: 8vh 15vw;
+    padding: 8vh 8vw;
     background: rgb(53, 51, 51);
     overflow: hidden;
 }
@@ -144,10 +144,9 @@
 .instagram {
     display: grid;
     grid-template-columns:12vw 12vw;
-    row-gap: 1em;
-    column-gap: 1em !important;
-    margin: 0;
-    padding: 0;
+    row-gap: .8em;
+    column-gap: .2em !important;
+
 }
 
 .links-ul li {
@@ -157,8 +156,8 @@
 }
 
 .instagram img {
-    width: 3.5em;
-    height: 3.5em;
+    width: 3em;
+    height: 3em;
     object-fit: cover;
     margin: 0;
     padding: 0;
@@ -167,5 +166,19 @@
 .IG h3 {
     display: flex;
     justify-content: flex-start;
+}
+
+.widget h2 {
+    font-size: .7em;
+    color: rgb(213, 217, 219);
+}
+
+.usefulLinks h2 {
+    font-size: .7em;
+    color: rgb(213, 217, 219);
+}
+
+.contact {
+    margin-left: 2vw;
 }
 }

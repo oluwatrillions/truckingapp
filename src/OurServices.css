@@ -32,8 +32,9 @@
 @media screen and (max-width:500px){
 .service-info {
    position: absolute;
-   width: 100vw;
-   margin-left: 8vw;
+   display: grid;
+   grid-template-columns: 80vw;
+   justify-content: center;
 }
 
 .service-info h2 {
@@ -44,5 +45,11 @@
   width: 80vw;
   height: 30vh;
   object-fit: cover;
+}
+
+.myServices {
+    display: grid;
+    grid-template-columns: 80vw;
+    justify-content: center;
 }
 }

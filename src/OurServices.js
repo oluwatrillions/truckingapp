@@ -1,10 +1,9 @@
 import React from 'react';
 import './OurServices.css'
 import image from './images/cargo.jpg'
-import { Container } from '@material-ui/core';
 
 function OurServices({services}) {
-        return <Container className='myServices' maxWidth='xl'>
+        return <div className='myServices' maxWidth='xl'>
                 <div className='myServices'>
                 {services.map((data) => {
                         const {id, serviceType, description } = data
@@ -15,7 +14,7 @@ function OurServices({services}) {
                         </div>
         })}
                         </div>
-        </Container>
+        </div>
 }
 
 export default OurServices;

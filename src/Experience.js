@@ -22,43 +22,44 @@ function Experience() {
                     <h3 className='ship'>Search our databases of the <span>Top 100 providers</span> <br /> in
                     key segments of the supply chain industry.</h3>
                 </div>
-            <div>
-                <img className='truck-image' src={images} alt='' />
-            </div>
-            <div>
-                <img className='trucking-image' src={image} alt='' />
-            </div>
-                <div className='services-icons'>
-                    <h1>WHAT OUR ADVANTAGES</h1>
-                    <h3>TRANSPORT AND LOGIZTICS</h3>
-                    <h6>To meet new shipper and consumer demands, modern<br />
-                        warehouse design plans are larger, smarter, and more<br />
-                        flexible. This issue draws a blueprint for warehousing<br />
-                        best practices that support supply chain optimization.</h6>
-                        <div className='services-icon'>
-                            <div>
-                                <img src={packaging} alt='' />
-                                <h5>Consumer <span>Package Good</span></h5>
-                            </div>
-                            <div>
-                                <img src={good} alt='' />
-                                <h5>Chemical <span>Good</span></h5>
-                            </div>
-                            <div>
-                                <img src={food} alt='' />
-                                <h5>Food & <span>Beverage</span></h5>
-                            </div>
-                            <div>
-                                <img src={retail} alt='' />
-                                <h5>Retail <span>Package Good</span></h5>
-                            </div>
-                            <div>
-                                <img src={energy} alt='' />
-                                <h5>Energy <span>Oil & Gas</span></h5>
-                            </div>
-                        </div>
+                <div>
+                    <img className='truck-image' src={images} alt='' />
                 </div>
-    </div>
+                <div>
+                    <img className='trucking-image' src={image} alt='' />
+                </div>
+                    <div className='services-icons'>
+                        <h1>WHAT OUR ADVANTAGES</h1>
+                        <h3>TRANSPORT AND LOGIZTICS</h3>
+                        <h6>To meet new shipper and consumer demands, modern<br />
+                            warehouse design plans are larger, smarter, and more<br />
+                            flexible. This issue draws a blueprint for warehousing<br />
+                             best practices that support supply chain optimization.
+                        </h6>
+                            <div className='services-icon'>
+                                <div>
+                                    <img src={packaging} alt='' />
+                                    <h5>Consumer <span>Package Good</span></h5>
+                                </div>
+                                <div>
+                                    <img src={good} alt='' />
+                                    <h5>Chemical <span>Good</span></h5>
+                                </div>
+                                <div>
+                                    <img src={food} alt='' />
+                                    <h5>Food & <span>Beverage</span></h5>
+                                </div>
+                                <div>
+                                    <img src={retail} alt='' />
+                                    <h5>Retail <span>Package Good</span></h5>
+                                </div>
+                                <div>
+                                    <img src={energy} alt='' />
+                                    <h5>Energy <span>Oil & Gas</span></h5>
+                                </div>
+                            </div>
+                </div>
+            </div>
 )
 }
         

@@ -52,4 +52,9 @@
     grid-template-columns: 80vw;
     justify-content: center;
 }
+
+.serviceh2 {
+    font-size: 1vw;
+    margin-top: .5vh;
+}
 }

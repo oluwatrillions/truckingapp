@@ -9,6 +9,7 @@
   gap: 1.5vw;
   grid-template-columns: auto auto auto auto;
   justify-content: center;
+  cursor: pointer;
 }
 
 .serviceh2 {
@@ -19,7 +20,14 @@
   width: 18vw;
   height: 30vh;
   object-fit: cover;
+  transition: width 1s ease-in-out;
+  transition: height 1s ease-in-out;
 }
+ .service-info img:hover{
+    width: 20vw;
+    height: 33vh;
+    opacity: 0.5;
+ }
 
 .service-info h2 {
   color: rgb(225, 229, 233);

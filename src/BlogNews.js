@@ -1,7 +1,7 @@
 const BlogNews = [
     {
         id: 1,
-        images: './images/shipp.jpeg',
+        images: require('./images/ship.jpeg'),
         day: 20,
         month: 'MAY',
         name: 'TOBY',
@@ -10,7 +10,7 @@ const BlogNews = [
     },
     {
         id: 1,
-        images: './images/international.jpg',
+        images: require('./images/international.jpg'),
         day: 6,
         month: 'JUNE',
         name: 'MICHAEL',

@@ -1,14 +1,13 @@
 import React from 'react';
-import image from './images/shipp.png'
 import './Blogpost.css'
 
 function BlogPost({dataInfo}) {
     return <div>
       {dataInfo.map((datas) => {
-        const {id, day, month, name, time, description} = datas
+        const {id, day, month, images, name, time, description} = datas
         return <div className='blogpost' key={id}>
             <div className='dataInfo'>
-                <img src={image} alt='' />
+                <img src={images} alt='' />
                 <h4>{day}</h4>
                 <h3>{month}</h3>
             </div>

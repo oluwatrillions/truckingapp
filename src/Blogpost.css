@@ -13,18 +13,21 @@
 .dataInfo {
     margin-left: 0;
     padding-left: 0;
+    position: relative;
 }
 
 .dataInfo h4 {
     position: absolute;
     top: 0;
     left: 0;
+    color: rgb(231, 36, 36);
 }
 
 .dataInfo h3 {
     position: absolute;
-    top: 1em;
+    top: .2em;
     left: 0;
+    color: rgb(231, 36, 36);
 }
 
 .blogpost {

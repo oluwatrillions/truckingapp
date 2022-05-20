@@ -2,8 +2,7 @@ import React from 'react';
 import './OurServices.css'
 
 function OurServices({services}) {
-        return <div className='myServices' maxWidth='xl'>
-                <div className='myServices'>
+        return <div className='myServices'>
                 {services.map((data) => {
                         const {id, serviceType, image, description } = data
                 return <div className='service-info' key = {id}>
@@ -12,7 +11,6 @@ function OurServices({services}) {
                         <h6 className='serviceh6'>{ description}</h6>
                         </div>
         })}
-                        </div>
         </div>
 }
 

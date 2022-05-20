@@ -24,8 +24,8 @@
   transition: height 1s ease-in-out;
 }
  .service-info img:hover{
-    width: 20vw;
-    height: 33vh;
+    width: 22vw;
+    height: 35vh;
     opacity: 0.5;
  }
 

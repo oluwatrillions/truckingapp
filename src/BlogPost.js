@@ -13,8 +13,8 @@ function BlogPost({dataInfo}) {
             </div>
             <div className='blogInfo'>
               <h4 className='blogCred'>POSTED BY <span>{name}</span>, {time} MINUTES AGO.</h4>
-            <h5 className='blogDesc'>{description}</h5>
-            <h4 className='blogMore'>READ MORE</h4>
+              <h5 className='blogDesc'>{description}</h5>
+              <h4 className='blogMore'>READ MORE</h4>
           </div>
           </div>          
       })}

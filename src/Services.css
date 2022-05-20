@@ -144,6 +144,7 @@
       flex-direction: row;
       justify-content: center;
       align-items: center;
+      margin-bottom: 2vh;
   }
 
   .serviceless-span button {
@@ -167,7 +168,7 @@
   .ourService {
     display: grid;
     grid-template-columns: 100vw;
-    grid-template-rows: 60vw;
+    grid-template-rows: 62vw;
   }
 
   .our-services {

@@ -105,3 +105,50 @@ textarea {
     width: 30vw;
     padding-top: 0;
 }
+
+@media screen and (max-width: 500px){
+    .searchDiv input {
+    height: 5vh;
+    width: 15vw;
+    margin-top: 2vh;
+    outline: none;
+    padding-left: .2em;
+    font-size: .7em;
+    outline: none;
+    color: black;
+}
+
+textarea {
+    width: 59.7vw;
+    height: 30vh;
+    margin-bottom: 2vh;
+    outline: none;
+    font-size: 1.5em;
+    padding: 2em;
+    border: none;
+    border-top: 1px solid rgb(235, 232, 232);
+    color: grey;
+}
+
+.database h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(112, 102, 102);
+    font-weight: 400;
+    margin: 0;
+    width: 50vw;
+}
+
+.database {
+    height: 60vh;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(236, 233, 233);
+    overflow: hidden;
+}
+}

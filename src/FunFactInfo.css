@@ -49,8 +49,9 @@
 
     .factsMetrics {
         display: flex;
-        justify-content: flex-start;
-        gap: 4em;
+        justify-content: space-between;
+        gap: 1vw !important;
+        width: 10vw;
     }
 
     .infoMetrics span {

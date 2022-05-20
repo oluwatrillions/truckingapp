@@ -10,6 +10,7 @@
   grid-template-columns: auto auto auto auto;
   justify-content: center;
   cursor: pointer;
+  padding-bottom: 5vh;
 }
 
 .serviceh2 {

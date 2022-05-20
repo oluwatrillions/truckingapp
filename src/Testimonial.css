@@ -112,9 +112,9 @@ q {
     width: 100vw;
     height: auto;
     display: grid;
-    grid-template-columns: 20vw 20vw 20vw;
+    grid-template-columns: 25vw 25vw 25vw;
     grid-template-rows: auto;
-    grid-gap: 2em;
+    grid-gap: 1em;
     background: rgb(53, 51, 51);
     justify-content: center;
 }

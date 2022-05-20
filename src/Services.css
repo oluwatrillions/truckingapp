@@ -99,6 +99,10 @@
     margin-bottom: 2vh;
   }
 
+  .firstInfo {
+      margin-left: 1vw;
+  }
+
   .firstInfo h6 {
     font-size: 1em;
     color: white;

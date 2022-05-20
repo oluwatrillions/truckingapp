@@ -50,6 +50,10 @@ nav > ul > li {
   padding-right: 0;
 }
 
+.logo {
+    margin-left: 1vw;
+}
+
 .logo h6 {
     color: aliceblue;
     font-size: .6em;

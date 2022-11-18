@@ -1,9 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
 import OurServices from './OurServices'
 import data from './serviceData'
+import nextInfo from './images/next.png'
 import './Services.css'
 
 function Services() {
+    const [next, setNext] = useState(0)
+
+    const nextBtn = () => {
+        const nextSlide = data[next]
+        console.log(nextSlide);
+        setNext(next + 1)
+
+        if (nextSlide >= (data.length)-1) {
+            return nextSlide
+        }
+    }
     return (
             <div className='serviceless'>
                 <div className='servicesInfo'>
@@ -26,7 +38,8 @@ function Services() {
                 </div>
                 <div className='ourService'>
                     <div className='our-services'>
-                        < OurServices services={ data}/>
+                        < OurServices services={data} />
+                    <img onClick={nextBtn} src={nextInfo} alt='' className='next-Img' />
                     </div>
                     <div className='serviceless-span'>
                         <h6>Need <span>shipping worldwide?</span> We are the best partner for you. <span>Let's ship Worldwide.</span></h6>

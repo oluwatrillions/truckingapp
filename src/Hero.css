@@ -7,15 +7,8 @@ nav {
   box-sizing: border-box;
 }
 
-.MuiContainer-root {
-    padding-left: 0;
-    padding-right: 0;
-    margin-right: 0;
-    margin-left: 0;
-}
-
 .hero-page {
-    width: 100vw;
+    width: calc(100vw - 16px);
 }
 
 .heroImg img {
@@ -23,7 +16,7 @@ nav {
   background-repeat: no-repeat;
   background-position: center center fixed;
   object-fit: cover;
-  width: 100% !important;
+  width: 100vw;
   height: 90vh !important;
   position: relative;
   vertical-align: middle;
@@ -31,7 +24,7 @@ nav {
 
 .heroImg > div {
   position: absolute;
-  width: 100%;
+  width: 100vw;
   top: 20vh;
   display: flex;
   flex-direction: column;

@@ -39,7 +39,7 @@ function Database() {
                         </div>
                         <div>
                                 <div className='searchArea'>
-                                    <label for='transport type' placeholder='Your message'></label>
+                                    <label htmlFor='transport type' placeholder='Your message'></label>
                                     <textarea placeholder='Your Message' onChange={(e)=>{setMessage(e.target.value)}}></textarea>
                                 </div>
                         </div>

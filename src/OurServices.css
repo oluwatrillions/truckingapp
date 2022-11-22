@@ -21,8 +21,8 @@
   width: 18vw;
   height: 30vh;
   object-fit: cover;
-  transition: width 1s ease-in-out;
-  transition: height 1s ease-in-out;
+  transition: width 2s ease-in-out;
+  transition: height 2s ease-in-out;
 }
  .service-info img:hover{
     width: 22vw;

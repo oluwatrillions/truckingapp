@@ -9,7 +9,7 @@ const BlogNews = [
         description: 'Preparing Customers Package On The Board'
     },
     {
-        id: 1,
+        id: 2,
         images: require('./images/international.jpg'),
         day: 6,
         month: 'JUNE',

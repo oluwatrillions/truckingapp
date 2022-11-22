@@ -6,13 +6,13 @@ const FunFactsMetrics = [
     },
 
      {
-        id: 1,
+        id: 2,
         metrics: 18,
         type: 'DESTINATIONS'
     },
      
       {
-        id: 1,
+        id: 3,
         metrics: 100,
         type: 'HAPPY CLIENTS'
     }

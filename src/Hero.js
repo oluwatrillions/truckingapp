@@ -1,20 +1,55 @@
-import React from 'react'
+import React, { useState } from 'react'
 import truckImg from './images/trucks.jpg'
-import Nav from './Nav'
 import './Hero.css'
+import { IoCloseOutline } from "react-icons/io5";
+import { IoMenuSharp } from "react-icons/io5";
+import Logo from './images/logo.png'
+
 
 function Hero() {
+
+    const [isClicked, setIsClicked] = useState(false)
+
+    const menuBtn = () => {
+        setIsClicked(!isClicked)
+    }
+
+    const closeMenuBtn = () => {
+        setIsClicked(false)
+    }
+
     return (
-            <div className='hero-page'>
+            <div className='hero-page'>           
                 <div className='heroImg'>
+                    <div className='navSection'>
+                        {/* <div className='logo'>
+                            <img src={Logo} alt='' className='img-logo' />
+                            <h6>Logistics and Transportation</h6>
+                        </div> */}
+                        <div className='nav-toggle'>
+                            <IoMenuSharp className={isClicked ? 'menu-button' : 'navBar'} onClick={menuBtn}/>    
+                            <IoCloseOutline className='close-menu'/>
+                        </div>
+                        <div className='navBar'>
+                            <nav>
+                                <ul>
+                                    <li>HOME</li>
+                                    <li>ABOUT US</li>
+                                    <li>SERVICE</li>
+                                    <li>OUR BLOG</li>
+                                    <li>CONTACT US</li>
+                                    <li>SEARCH</li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
                     <img className='hero' src={truckImg} alt='' />
                     <div className='summary'>
-                            <h1>TOBIES FREIGHT SERVICE</h1>
-                            <h4>Leaders in transportation, logistics and freight services.</h4>
-                            <h3>Contact us for the best freight services. We offer the best deals in transportation and moving services.</h3>
+                        <h1>TOBIES FREIGHT SERVICE</h1>
+                        <h4>Leaders in transportation, logistics and freight services.</h4>
+                        <h3>Contact us for the best freight services. We offer the best deals in transportation and moving services.</h3>
                     </div>
                 </div>
-                    <Nav />
             </div>
     )
 }

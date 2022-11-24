@@ -8,14 +8,12 @@ function Services() {
     const [next, setNext] = useState(0)
 
     const nextBtn = () => {
-        const nextSlide = data[next]
-        console.log(nextSlide);
+        const setSlide = data[next]
         setNext(next + 1)
-
-        if (nextSlide >= (data.length)-1) {
-            return nextSlide
-        }
+        console.log(setSlide);
+        return setSlide
     }
+    
     return (
             <div className='serviceless'>
                 <div className='servicesInfo'>

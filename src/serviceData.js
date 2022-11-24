@@ -1,5 +1,5 @@
 const serviceData = [
-    {
+    {   
         id: 1,
         image: require('./images/truck.jpg'),
         serviceType: 'OVERLAND NETWORK',

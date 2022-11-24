@@ -21,18 +21,24 @@ function Hero() {
     return (
             <div className='hero-page'>           
                 <div className='heroImg'>
+                    <img className='hero' src={truckImg} alt='' />
+                    <div className='summary'>
+                        <h1>TOBIES FREIGHT SERVICE</h1>
+                        <h4>Leaders in transportation, logistics and freight services.</h4>
+                        <h3>Contact us for the best freight services. We offer the best deals in transportation and moving services.</h3>
+                </div>
                     <div className='navSection'>
                         {/* <div className='logo'>
                             <img src={Logo} alt='' className='img-logo' />
                             <h6>Logistics and Transportation</h6>
                         </div> */}
                         <div className='nav-toggle'>
-                            <IoMenuSharp className={isClicked ? 'menu-button' : 'navBar'} onClick={menuBtn}/>    
+                            <IoMenuSharp className={`${isClicked ? 'nav-links navBar' : 'menu-button'}`} onClick={menuBtn}/>    
                             <IoCloseOutline className='close-menu'/>
                         </div>
                         <div className='navBar'>
-                            <nav>
-                                <ul>
+                            <nav className='show-nav'>
+                                <ul className='nav-links'>
                                     <li>HOME</li>
                                     <li>ABOUT US</li>
                                     <li>SERVICE</li>
@@ -42,12 +48,6 @@ function Hero() {
                                 </ul>
                             </nav>
                         </div>
-                    </div>
-                    <img className='hero' src={truckImg} alt='' />
-                    <div className='summary'>
-                        <h1>TOBIES FREIGHT SERVICE</h1>
-                        <h4>Leaders in transportation, logistics and freight services.</h4>
-                        <h3>Contact us for the best freight services. We offer the best deals in transportation and moving services.</h3>
                     </div>
                 </div>
             </div>

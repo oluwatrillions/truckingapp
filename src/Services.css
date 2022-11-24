@@ -60,12 +60,12 @@
 }
 
 .our-services .next-Img {
-    width: 20px;
-    height: 20px;
-    margin: 0;
+    width: 30px;
+    height: 30px;
     position: absolute;
-    top: 2em;
-    right: 0;
+    top: 12vh;
+    right: 1em;
+    cursor: pointer;
 }
 
 .serviceless-span {

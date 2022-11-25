@@ -33,7 +33,7 @@ function Hero() {
                             <h6>Logistics and Transportation</h6>
                         </div> */}
                         <div className='nav-toggle'>
-                            <IoMenuSharp className={`${isClicked ? 'nav-links navBar' : 'menu-button'}`} onClick={menuBtn}/>    
+                            <IoMenuSharp className={`${isClicked ? 'nav-links' : 'menu-button'}`} onClick={menuBtn}/>    
                             <IoCloseOutline className='close-menu'/>
                         </div>
                         <div className='navBar'>

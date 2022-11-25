@@ -38,7 +38,9 @@ function Services() {
                 <div className='ourService'>
                     <div className='our-services'>
                         < OurServices services={data} />
+                    <div className='img-container'>
                         <IoIosArrowForward onClick={nextBtn} alt='' className='next-Img' />
+                    </div>
                     </div>
                     <div className='serviceless-span'>
                         <h6>Need <span>shipping worldwide?</span> We are the best partner for you. <span>Let's ship Worldwide.</span></h6>

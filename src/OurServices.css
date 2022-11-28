@@ -22,7 +22,7 @@
   height: 30vh;
   border-radius: 0.5em;
   object-fit: cover;
-  transition: width 5s, height 2s linear;
+  transition: width 1s, height 1s linear;
 }
  .service-info img:hover{
     width: 22vw;
@@ -39,6 +39,19 @@
   color: rgb(255, 255, 255);
 }
 
+.img-container {
+    visibility: hidden;
+}
+
+.img-container .next-Img {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 12vh;
+    right: 5vw;
+    cursor: pointer;
+}
+
 @media screen and (max-width:500px){
 .service-info {
    width: 100vw;
@@ -46,16 +59,28 @@
    display: grid;
    grid-template-columns: 80vw;
    justify-content: center;
+   overflow: hidden;
+   margin: 0 auto;
+   transition: all 0.5s linear
 }
 
 .service-info h2 {
+    top: 0;
+    left: 10vw;
     font-size: 1em;
+}
+
+.service-info h6 {
+    top: 5vh;
+    left: 10vw;
+    color: rgb(255, 255, 255);
 }
 
 .service-info img {
   width: 80vw;
   height: 30vh;
   object-fit: cover;
+ 
 }
 
 .myServices {
@@ -67,5 +92,18 @@
 .serviceh2 {
     font-size: 1vw;
     margin-top: .5vh;
+}
+
+.img-container {
+    visibility: visible;
+}
+
+.service-info .activeSlide {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.service-info .nextSlide{
+    transform: translateX(100%);
 }
 }

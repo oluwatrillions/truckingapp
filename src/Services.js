@@ -1,20 +1,9 @@
 import React, { useState } from 'react'
 import OurServices from './OurServices'
 import data from './serviceData'
-import { IoIosArrowForward } from "react-icons/io";
 import './Services.css'
 
 function Services() {
-    const [next, setNext] = useState(0)
-
-    const nextBtn = () => {
-        const firstSlide = next === 0
-        const lastSlide = next === data.length - 1
-        const nextSlide = lastSlide ? 0 : next + 1
-        setNext(nextSlide)
-        console.log(nextSlide);
-    }
-    
     return (
             <div className='serviceless'>
                 <div className='servicesInfo'>
@@ -37,10 +26,7 @@ function Services() {
                 </div>
                 <div className='ourService'>
                     <div className='our-services'>
-                        < OurServices services={data} />
-                    <div className='img-container'>
-                        <IoIosArrowForward onClick={nextBtn} alt='' className='next-Img' />
-                    </div>
+                        < OurServices />
                     </div>
                     <div className='serviceless-span'>
                         <h6>Need <span>shipping worldwide?</span> We are the best partner for you. <span>Let's ship Worldwide.</span></h6>

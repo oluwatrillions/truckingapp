@@ -37,13 +37,13 @@ nav {
 .nav-toggle .menu-button {
     width: 3em;
     height: 3em;
-    margin-left: 1em;
+    margin-right: auto;
 }
 
 .nav-toggle .close-menu {
     width: 3em;
     height: 3em;
-    margin-right: 1em;
+    margin-left: auto;
 }
 
 .heroImg .summary {
@@ -114,10 +114,6 @@ div > h3 {
     height: 9vh;
 }
 
-.show-nav {
-    visibility: visible;
-}
-
 .nav-links{
     display: flex;
     justify-content: center;
@@ -180,7 +176,7 @@ div > h3 {
 
   .heroImg .nav-toggle {
       position: absolute;
-      display: block;
+      display: flex;
       justify-content: space-between;
       top: 2em;
       height: 8em;
@@ -189,15 +185,13 @@ div > h3 {
   .nav-toggle .menu-button {
       width: 2.5em;
       height: 2.5em;
-      float: left;
-      margin-left: 1em;
+      margin-right: auto;
   }
 
   .nav-toggle .close-menu {
       width: 2.5em;
       height: 2.5em;
-      float: right;
-      margin-right: 1em;
+      margin-left: auto;
   }
 
   .navSection {
@@ -218,18 +212,6 @@ div > h3 {
       display: block !important;
   }
 
-  .menu-button {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    background-color: rgb(19, 16, 16);
-    color: grey;
-    opacity: 0.5;
-    height: 30vh;
-    width: 100%;
-    z-index: -50;
-  }
-
   .nav-links {
     display: flex;
     flex-direction: column;
@@ -243,7 +225,13 @@ div > h3 {
   }
 
   .show-nav {
+    visibility: hidden;
+    margin-top: 6vh;
+  }
+
+  .show-links {
     visibility: visible;
   }
+  
 
 }

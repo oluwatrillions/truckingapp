@@ -36,7 +36,9 @@
 }
 
 .service-info h6 {
-  color: rgb(255, 255, 255);
+  width: 18vw;
+  color: rgb(219, 219, 219);
+  overflow: hidden;
 }
 
 .img-container {
@@ -48,7 +50,7 @@
     height: 30px;
     position: absolute;
     top: 12vh;
-    right: 5vw;
+    right: 3vw;
     cursor: pointer;
 }
 
@@ -60,20 +62,16 @@
    grid-template-columns: 80vw;
    justify-content: center;
    overflow: hidden;
-   margin: 0 auto;
-   transition: all 0.5s linear
 }
 
 .service-info h2 {
-    top: 0;
-    left: 10vw;
     font-size: 1em;
 }
 
 .service-info h6 {
-    top: 5vh;
-    left: 10vw;
-    color: rgb(255, 255, 255);
+    font-size: 1em;
+    font-weight: 100;
+    width: auto;
 }
 
 .service-info img {
@@ -85,7 +83,7 @@
 
 .myServices {
     display: grid;
-    grid-template-columns: 80vw;
+    grid-template-columns: 80vw 20vw;
     justify-content: center;
 }
 
@@ -98,12 +96,13 @@
     visibility: visible;
 }
 
-.service-info .activeSlide {
+.activeSlide {
     opacity: 1;
     transform: translateX(0);
 }
 
-.service-info .nextSlide{
+.nextSlide{
     transform: translateX(100%);
+    opacity: 0;
 }
 }

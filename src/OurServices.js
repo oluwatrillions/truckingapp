@@ -23,10 +23,9 @@ function OurServices() {
                 if (index === next) {
                     position = 'activeSlide'
                 }
-                if (index === next - 1 || (next === 0 && index === service.length - 1)
-                ) {
-                    position = 'lastSlide'
-                }
+                // if (index === next - 1 && index === service.length - 1){
+                //     position = 'lastSlide'
+                // }
                         return <div className='service-info' key={id}>
                             <div className={position}>
                                 <img src={image} alt=''/>

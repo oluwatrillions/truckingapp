@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useRef } from 'react'
 import truckImg from './images/trucks.jpg'
 import './Hero.css'
 import { IoCloseOutline } from "react-icons/io5";
@@ -9,13 +9,14 @@ import Logo from './images/logo.png'
 function Hero() {
 
     const [isClicked, setIsClicked] = useState(false)
+    const toggleRef = useRef();
 
     const menuBtn = () => {
-        setIsClicked(!isClicked)
+        toggleRef.current.classList.toggle('show-links')
     }
 
     const closeMenuBtn = () => {
-        setIsClicked(false)
+        
     }
 
     return (
@@ -26,7 +27,7 @@ function Hero() {
                         <h1>TOBIES FREIGHT SERVICE</h1>
                         <h4>Leaders in transportation, logistics and freight services.</h4>
                         <h3>Contact us for the best freight services. We offer the best deals in transportation and moving services.</h3>
-                </div>
+                    </div>
                     <div className='navSection'>
                         {/* <div className='logo'>
                             <img src={Logo} alt='' className='img-logo' />
@@ -38,7 +39,7 @@ function Hero() {
                         </div>
                         <div className='navBar'>
                             <nav className='show-nav'>
-                                <ul className='nav-links'>
+                                <ul className='nav-links' ref={toggleRef}>
                                     <li>HOME</li>
                                     <li>ABOUT US</li>
                                     <li>SERVICE</li>

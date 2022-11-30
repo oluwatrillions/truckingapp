@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import './OurServices.css'
 import { IoIosArrowForward } from "react-icons/io";
 import data from './serviceData'
@@ -20,10 +20,10 @@ function OurServices() {
             {service.map((data, index) => {
                 const { id, image, serviceType, description } = data
                 let position = 'nextSlide'
-                if (index === next) {
+                if (index === next ) {
                     position = 'activeSlide'
                 }
-                // if (index === next - 1 && index === service.length - 1){
+                // if (index === next - 1 || (index === 0 && index === service.length - 1)){
                 //     position = 'lastSlide'
                 // }
                         return <div className='service-info' key={id}>

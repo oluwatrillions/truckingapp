@@ -22,7 +22,7 @@
   height: 30vh;
   border-radius: 0.5em;
   object-fit: cover;
-  transition: width 1s, height 1s linear;
+  transition: width 1s, height 1s ;
 }
  .service-info img:hover{
     width: 22vw;

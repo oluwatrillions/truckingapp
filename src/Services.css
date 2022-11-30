@@ -131,13 +131,13 @@
     color: rgb(247, 238, 238);
     font-weight: 300;
     text-align: center;
-    margin-top: 0;
+    margin-left: 15vw;
     width: 70vw;
   }
 
   .serviceless {
     width: 100vw;
-    height: 60vh;
+    height: 70vh;
     background: rgb(63, 62, 62);
     padding-top: 0;
   }

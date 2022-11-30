@@ -1,6 +1,5 @@
-import React, { useState } from 'react'
+import React from 'react'
 import OurServices from './OurServices'
-import data from './serviceData'
 import './Services.css'
 
 function Services() {

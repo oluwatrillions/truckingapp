@@ -4,13 +4,6 @@
   box-sizing: border-box;
 }
 
-.MuiContainer-root {
-    padding-left: 0;
-    padding-right: 0;
-    margin-right: 0;
-    margin-left: 0;
-}
-
 .offer {
   width: 100vw;
   height: 70vh ;
@@ -41,17 +34,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgb(53, 51, 51);
+  background: rgb(243, 240, 240);
   padding: 1.2em;
 }
 
 .offer-divs img {
   margin-right: 1.1em;
-  padding: 0;
 }
 
 .firstoffer h3 {
-  color: rgb(209, 206, 206);
+  color: rgb(134, 121, 121);
   font-weight: 100;
   overflow: hidden;
   word-wrap: break-word;
@@ -60,11 +52,11 @@
 }
 
 .firstoffer > h3 > span {
-  color: white;
+  color: rgb(90, 81, 81);
 }
 
 .firstoffer h6 {
-  color: rgb(185, 184, 184);
+  color: rgb(82, 66, 66);
   overflow: hidden;
   word-wrap: break-word;
   font-size: .8em;
@@ -158,7 +150,7 @@
   .offer-divs {
     display: flex;
     justify-content: center;
-    background: rgb(53, 51, 51);
+    background: rgb(243, 240, 240);
     padding: .5em;
   }
 
@@ -170,7 +162,7 @@
   }
   
   .firstoffer h3 {
-    color: rgb(209, 206, 206);
+    color: rgb(134, 121, 121);
     font-weight: 100;
     word-wrap: break-word;
     margin-top: 0 !important;
@@ -179,11 +171,11 @@
   }
   
   .firstoffer>h3>span {
-    color: white;
+    color: rgb(90, 81, 81);
   }
   
   .firstoffer h6 {
-    color: rgb(185, 184, 184);
+    color: rgb(88, 78, 78);
     overflow: hidden;
     word-wrap: break-word;
     font-size: .5em;

@@ -65,12 +65,13 @@
 @media screen and (max-width:500px){
 .blogpost {
         display: flex;
-        gap: .5em;
+        justify-content: center;
+        padding-bottom: 2em;
     }
 
     .blogCred {
-        font-size: .4em;
-        margin-top: 1.7vh;
+        font-size: .5em;
+        margin-top: 3vh;
         margin-bottom: .8vh;
         color: rgb(179, 179, 179);
     }
@@ -80,7 +81,7 @@
     }
 
     .blogDesc {
-        font-size: .4em;
+        font-size: .5em;
         font-weight: 500;
         overflow: hidden;
         color: rgb(208, 210, 212);
@@ -96,8 +97,8 @@
     }
 
     .dataInfo img {
-    width: 15vw;
-    height: 10vh;
+    width: 50vw;
+    height: 15vh;
     background-size: cover;
     background-repeat: no-repeat;
     object-fit: cover;
@@ -108,14 +109,14 @@
     position: absolute;
     top: 2vh;
     left: 0;
-    color: rgb(250, 12, 250);
+    color: rgb(209, 93, 47);
 }
 
 .dataInfo h3 {
     position: absolute;
     top: 4vh;
     left: 0 !important;
-    color: rgb(245, 134, 7);
+    color: rgb(26, 20, 14);
     margin-left: 0;
     text-align: left;
     font-weight: 900;

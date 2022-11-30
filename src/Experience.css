@@ -9,7 +9,7 @@
   height: 80vh !;
   display: grid;
   grid-template-columns: 40vw 60vw;
-  grid-template-rows: 50vh 50vh !important;
+  grid-template-rows: 50vh 50vh;
   justify-content: center;
   box-sizing: border-box;
 }
@@ -171,6 +171,7 @@ blockquote > span {
     display: grid;
     grid-template-columns: 100vw;
     justify-content: center;
+    grid-template-rows: 50vh 50vh;
   }
 
   .truck-image {
@@ -200,7 +201,7 @@ blockquote > span {
   }
 
   .services-icons {
-    height: 40vh;
+    height: 50vh;
   }
 
   .shipping {
@@ -209,6 +210,7 @@ blockquote > span {
       display: flex;
       flex-direction: column;
       align-items: flex-start;
+      height: 50vh;
     }
 
   .ship {

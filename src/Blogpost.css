@@ -62,8 +62,75 @@
     cursor: pointer;
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:550px){
 .blogpost {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 2em;
+    }
+
+    .blogCred {
+        font-size: .5em;
+        margin-top: 3vh;
+        margin-bottom: .8vh;
+        color: rgb(179, 179, 179);
+    }
+
+    .blogCred span {
+        color: rgb(236, 216, 34);
+    }
+
+    .blogDesc {
+        font-size: .5em;
+        font-weight: 500;
+        overflow: hidden;
+        color: rgb(208, 210, 212);
+    }
+
+    .blogMore {
+        font-size: .3em;
+        margin-top: 1em;
+        color: rgb(28, 176, 235);
+        cursor: pointer;
+        margin-left: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    .dataInfo img {
+    width: 50vw;
+    height: 15vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    position: relative;
+}
+
+.dataInfo h4 {
+    position: absolute;
+    top: 2vh;
+    left: 0;
+    color: rgb(209, 93, 47);
+}
+
+.dataInfo h3 {
+    position: absolute;
+    top: 4vh;
+    left: 0 !important;
+    color: rgb(26, 20, 14);
+    margin-left: 0;
+    text-align: left;
+    font-weight: 900;
+}
+
+.dataInfo {
+    margin-left: 0;
+    padding-left: 0;
+    position: relative;
+}
+}
+
+@media screen and (max-width: 960px) {
+    .blogpost {
         display: flex;
         justify-content: center;
         padding-bottom: 2em;

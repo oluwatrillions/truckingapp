@@ -94,7 +94,7 @@
   font-weight: 700;
 }
 
-@media only screen and (max-width:500px){
+@media only screen and (max-width:550px){
   .serviceless {
     max-width: 100vw;
     background: rgb(63, 62, 62);
@@ -103,8 +103,8 @@
   
   .servicesInfo {
     display: grid;
-    grid-template-columns: 95vw;
-    margin-bottom: 2vh;
+    grid-template-columns: 45vw 40vw;
+    margin-bottom: 1;
   }
 
   .firstInfo {
@@ -120,19 +120,21 @@
   
   .firstInfo h5 {
     font-size: 1em;
-    color: white;
+    color: rgb(71, 41, 41);
     font-weight: 300;
     margin-top: 1em;
     text-align: left;
   }
 
   .secondInfo h3 {
-    font-size: 1em;
-    color: rgb(247, 238, 238);
+    font-size: 1.5em !important;
+    color: rgb(180, 175, 175) !important;
     font-weight: 300;
-    text-align: center;
-    margin-left: 15vw;
-    width: 70vw;
+    text-align: left;
+  }
+
+  .secondInfo span {
+    color: antiquewhite;
   }
 
   .serviceless {
@@ -199,3 +201,37 @@
   }
 
 } 
+
+@media screen and (max-width: 960px){
+.firstInfo {
+      margin-left: 0.5vw;
+  }
+
+.firstInfo h6 {
+    font-size: .8em;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+  }
+  
+.firstInfo h5 {
+    font-size: 1em;
+    color: white;
+    font-weight: 300;
+    margin-top: 1em;
+    text-align: left;
+  }
+
+  .secondInfo h3 {
+    font-size: 2em;
+    color: rgb(247, 238, 238);
+    font-weight: 300;
+    text-align: left;
+    width: 50vw;
+    margin-right: 1vw;
+  }
+
+  .serviceless-span {
+    visibility: hidden;
+  }
+}

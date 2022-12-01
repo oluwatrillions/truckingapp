@@ -99,7 +99,7 @@ q {
   color: rgb(28, 176, 235);
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:550px){
 .testhy h6 {
     font-size: .5em;
     text-transform: capitalize;
@@ -154,4 +154,60 @@ q {
     font-size: .8em;
 }
 
+}
+
+@media screen and (max-width: 960px) {
+    .testhy h6 {
+    font-size: .5em;
+    text-transform: capitalize;
+    color: rgb(204, 203, 203);
+    font-weight: 400;
+    text-align: center;
+}
+
+.testimonial {
+    width: 100vw;
+    height: auto;
+    display: block;
+    background: rgb(53, 51, 51);
+}
+
+.funFacts {
+    width: 100%;
+    padding-top: 1em;
+}
+
+.top-head {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1em;
+    margin-top: 0vh;
+}
+
+.funFacts img {
+    width: 100vw;
+    height: 20vh;
+    margin-top: 1em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    align-items: center;
+}
+
+.top-head h2 {
+    font-size: .8em;
+    font-weight: 400;
+    color: rgb(158, 154, 154);
+}
+
+q {
+    width: 100vw;
+    display: flex;
+    text-align: flex-start;
+    color: rgb(165, 166, 167);
+    font-size: .8em;
+}
 }

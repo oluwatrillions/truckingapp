@@ -124,26 +124,28 @@
     color: rgb(213, 217, 219);
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:550px){
 .contactUs {
     height: auto;
     width: 100vw;
     display: grid;
-    grid-template-columns: 25vw 25vw 25vw 25vw;
+    grid-template-columns: 40vw 45vw;
+    row-gap: 1em;
+    justify-content: space-between;
     padding: 4vh 1vw;
     background: rgb(53, 51, 51);
     overflow: hidden;
-    }
+}
 
 .our-Info {
     margin-top: 3vh;
     overflow: hidden;
-    width: 20vw
+    width: 50vw
 }
 
 .instagram {
     display: grid;
-    grid-template-columns:12vw 12vw;
+    grid-template-columns:20vw 20vw;
     row-gap: .8em;
     column-gap: .2em !important;
 
@@ -151,16 +153,14 @@
 
 .links-ul li {
     margin-bottom: .8em;
-    font-size: .8em;
+    font-size: .9em;
     color: rgb(185, 184, 184);
 }
 
 .instagram img {
-    width: 3em;
-    height: 3em;
+    width: 6em;
+    height: 4em;
     object-fit: cover;
-    margin: 0;
-    padding: 0;
 }
 
 .IG h3 {
@@ -169,16 +169,101 @@
 }
 
 .widget h2 {
-    font-size: .7em;
+    font-size: 1em;
     color: rgb(213, 217, 219);
+}
+
+.socials h6 {
+    width: 45vw;
+}
+
+.widget {
+    width: 50vw;
 }
 
 .usefulLinks h2 {
-    font-size: .7em;
+    font-size: 1em;
     color: rgb(213, 217, 219);
+    font-weight: 100;
 }
 
 .contact {
-    margin-left: 2vw;
+    width: 50vw;
+}
+
+.contact h6 {
+    width: 50vw;
+}
+}
+
+@media screen and (max-width: 960px) {
+    .contactUs {
+    height: auto;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 40vw 45vw;
+    row-gap: 1em;
+    justify-content: space-between;
+    padding: 4vh 1vw;
+    background: rgb(53, 51, 51);
+    overflow: hidden;
+}
+
+.our-Info {
+    margin-top: 3vh;
+    overflow: hidden;
+    width: 50vw
+}
+
+.instagram {
+    display: grid;
+    grid-template-columns:20vw 20vw;
+    row-gap: .8em;
+    column-gap: .2em !important;
+
+}
+
+.links-ul li {
+    margin-bottom: .8em;
+    font-size: .9em;
+    color: rgb(185, 184, 184);
+}
+
+.instagram img {
+    width: 6em;
+    height: 4em;
+    object-fit: cover;
+}
+
+.IG h3 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.widget h2 {
+    font-size: 1em;
+    color: rgb(213, 217, 219);
+}
+
+.socials h6 {
+    width: 45vw;
+}
+
+.widget {
+    width: 50vw;
+}
+
+.usefulLinks h2 {
+    font-size: 1em;
+    color: rgb(213, 217, 219);
+    font-weight: 100;
+}
+
+.contact {
+    width: 50vw;
+}
+
+.contact h6 {
+    width: 50vw;
 }
 }

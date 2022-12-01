@@ -106,7 +106,7 @@ textarea {
     padding-top: 0;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 550px){
     .searchDiv input {
     height: 5vh;
     width: 15vw;

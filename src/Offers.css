@@ -110,10 +110,9 @@
   margin: auto;
 }
 
-@media only screen and (max-width:500px){
+@media only screen and (max-width:550px){
   .offer {
     max-width: 100vw;
-    height: auto;
     display: grid;
     background: rgb(63, 62, 62);
     box-sizing: border-box;
@@ -123,17 +122,17 @@
 
   .offers {
     display: grid;
-    grid-template-columns: 40vw 40vw;
+    grid-template-columns: 40vw 40vw !important;
     grid-gap: 1em;
     color: white;
     overflow: hidden;
     margin-right: 0;
     padding: 0;
-    margin-bottom: 2vh;
+    margin-bottom: 1vh;
   }
 
   .offer-story h1 {
-      margin-top: 2vh;
+      margin-top: 1vh !important;
       margin-bottom: 1vh;
   }
 
@@ -144,7 +143,6 @@
   .offers img {
     width: 1.5em;
     height: 1.5em;
-    opacity: 1;
   }
 
   .offer-divs {
@@ -167,7 +165,8 @@
     word-wrap: break-word;
     margin-top: 0 !important;
     padding-top: 0 !important;
-    width: 30vw;
+    width: 30vw !important;
+    font-size: 1em !important;
   }
   
   .firstoffer>h3>span {
@@ -198,4 +197,95 @@
     margin-bottom: 2vh;
   }
 } 
+
+@media screen and (max-width: 960px) {
+    .offer {
+    max-width: 100vw;
+    height: auto;
+    display: grid;
+    background: rgb(63, 62, 62);
+    box-sizing: border-box;
+    color: white;
+    padding-left: 0 !important;
+  }
+
+  .offers {
+    display: grid;
+    grid-template-columns: 35vw 35vw;
+    grid-gap: 1em;
+    color: white;
+    overflow: hidden;
+    margin-right: 0;
+    padding: 0;
+    margin-bottom: 2vh;
+  }
+
+  .offer-story h1 {
+      margin-top: 2vh;
+      margin-bottom: 1vh;
+  }
+
+  .offer-story h6 {
+      margin-bottom: 1.5vh;
+  }
+
+  .offers img {
+    width: 1.5em;
+    height: 1.5em;
+    opacity: 1;
+  }
+
+  .offer-divs {
+    display: flex;
+    height: 15vh;
+    justify-content: flex-start;
+    background: rgb(243, 240, 240);
+    padding: .5em;
+  }
+
+  .firstoffer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0;
+  }
+  
+  .firstoffer h3 {
+    color: rgb(134, 121, 121);
+    font-weight: 100;
+    word-wrap: break-word;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    width: 30vw;
+    font-size: 1em !important;
+  }
+  
+  .firstoffer>h3>span {
+    color: rgb(90, 81, 81);
+  }
+  
+  .firstoffer h6 {
+    color: rgb(88, 78, 78);
+    overflow: hidden;
+    word-wrap: break-word;
+    font-size: .6em;
+    text-align: start;
+    font-weight: 100;
+    width: 27vw;
+  }
+
+  .offer button {
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    background: rgb(117, 110, 12) !important;
+    color: white !important;
+    font-weight: 500;
+    border-radius: .5em;
+    outline: none;
+    margin: auto;
+    font-size: .6em;
+    margin-bottom: 2vh;
+  }
+}
 

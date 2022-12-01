@@ -15,10 +15,6 @@ function Hero() {
         toggleRef.current.classList.toggle('show-links')
     }
 
-    const closeMenuBtn = () => {
-        
-    }
-
     return (
             <div className='hero-page'>           
                 <div className='heroImg'>

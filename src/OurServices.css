@@ -54,7 +54,7 @@
     cursor: pointer;
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:550px){
 .service-info {
    width: 100vw;
    position: absolute;
@@ -105,4 +105,57 @@
     transform: translateX(100%);
     opacity: 0;
 }
+}
+
+@media screen and (max-width: 960px){
+.service-info {
+        width: 100vw;
+        position: absolute;
+        display: grid;
+        grid-template-columns: 80vw;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    .service-info h2 {
+        font-size: 1em;
+    }
+
+    .service-info h6 {
+        font-size: 1em;
+        font-weight: 100;
+        width: auto;
+    }
+
+    .service-info img {
+        width: 80vw;
+        height: 30vh;
+        object-fit: cover;
+
+    }
+
+    .myServices {
+        display: grid;
+        grid-template-columns: 80vw 20vw;
+        justify-content: center;
+    }
+
+    .serviceh2 {
+        font-size: 1vw;
+        margin-top: .5vh;
+    }
+
+    .img-container {
+        visibility: visible;
+    }
+
+    .activeSlide {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    .nextSlide {
+        transform: translateX(100%);
+        opacity: 0;
+    }
 }
